@@ -475,8 +475,8 @@ section {
 }
 
 #pepe-chart-up {
-    width: 194px;
-    height: 128px;
+    min-width: 194px;
+    min-height: 128px;
     background-image: url("images/pepe-chart-up@2x.png");
     background-image: image-set(
             url("images/pepe-chart-up.png") 1x,
