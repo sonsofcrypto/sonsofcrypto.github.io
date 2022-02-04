@@ -1,12 +1,5 @@
-# TODO
+# sons of crypto site
 
-# Can ship with
+### TODO
 - Mobile navbar
 - roadmap title not to be part of scrolling
-
-${MEDIUM}
-${TELEGRAM}
-${ELEMENT}
-${DISCORD}
-
-${TWITTER_WEB3DESIGNER}

@@ -1,5 +1,5 @@
 /*
-neon pink: #DF4991
+neon pink: #E73795
 neon blue #83CEFF
 bg gradient #211E3D #130B22
 */
@@ -153,7 +153,7 @@ nav {
 
 .nav-logo-text {
     margin-left: 26px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 1052px) {
@@ -219,7 +219,7 @@ nav {
     height: 100%;
     line-height: 85px;
 
-    background-color: #DF4991;
+    background-color: #E73795;
     background-image: linear-gradient(#F2C707, #F0A223);
     background-clip: text;
     color: transparent;
@@ -420,8 +420,8 @@ section {
 .card-base {
     background-color: #211E3DFC;
     border-radius: 8px;
-    border: 1px solid #DF489180;
-    box-shadow: 0px 0px 8px #DF4891;
+    border: 1px solid #E7379580;
+    box-shadow: 0px 0px 8px #E73795;
 }
 
 .card {
@@ -438,8 +438,8 @@ section {
 }
 
 .card-clickable:hover {
-    box-shadow: 0px 0px 12px #DF4891;
-    border: 1px solid #DF4891;
+    box-shadow: 0px 0px 12px #E73795;
+    border: 1px solid #E73795;
     transform: scale(1.025, 1.025);
 }
 
@@ -535,7 +535,6 @@ section {
     57% { opacity: 40%; }
     100% { opacity: 40%; }
 }
-
 
 @keyframes animateItalik {
     0% { opacity: 40%; }
@@ -675,7 +674,7 @@ section {
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 349px 695px;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .comet {
@@ -716,7 +715,8 @@ section {
 @keyframes animatedBackground {
     0% { opacity: 0%; bottom: 0%; left: 0%; }
     2% { opacity: 100%; }
-    48% { opacity: 100%; }
+    43% { opacity: 100%; }
+    45% { opacity: 0%; }
     50% { bottom: 79%; left: 79%; opacity: 0%; }
     100% { bottom: 79%; left: 79%; opacity: 0%; }
 }
@@ -725,7 +725,8 @@ section {
     0% { opacity: 0%; bottom: 0%; left: 30%; }
     40% { opacity: 0%; bottom: 0%; left: 30%; }
     42% { opacity: 100%; }
-    81% { opacity: 100%; }
+    76% { opacity: 100%; }
+    78% { opacity: 0%; }
     83% { opacity: 0%; bottom: 79%; left: 79%; }
     100% { opacity: 0%; bottom: 79%; left: 79%; }
 }
@@ -755,7 +756,7 @@ section {
 }
 
 #ido {
-    margin-top: 80px;
+    margin-top: -40px;
 }
 
 #ido a {
@@ -799,9 +800,9 @@ section {
 }
 
 .roadmap-line {
-    background-color: #DF4891;
+    background-color: #E73795;
     width: 1px;
-    box-shadow: 0px 0px 8px #DF4891;
+    box-shadow: 0px 0px 8px #E73795;
 }
 
 #timeline-container {
@@ -826,8 +827,8 @@ section {
 #timeline-line {
     width: 100%;
     height: 1px;
-    background-color: #DF4891;
-    box-shadow: 0px 0px 8px #DF4891;
+    background-color: #E73795;
+    box-shadow: 0px 0px 8px #E73795;
     margin-bottom: 112px;
 
 }
@@ -1076,8 +1077,8 @@ section h1 {
     font-size: 48px;
     line-height: 64px;
     text-align: left;
-    color: #DF4991;
-    text-shadow: 0px 0px 6px #DF4991;
+    color: #E73795;
+    text-shadow: 0px 0px 6px #E73795;
     font-weight: normal;
     font-style: normal;
     z-index: 10;
