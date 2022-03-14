@@ -864,13 +864,16 @@ section {
 }
 
 #ido .std-content-flex-item-left {
+    flex: 3;
+}
+
+#ido .std-content-flex-item-right {
     flex: 2;
 }
 
 #ido .std-content-flex-container {
     gap: 0px;
 }
-
 
 #ido .std-content-flex-item-right img {
     display: table;
@@ -879,33 +882,46 @@ section {
 
 .bull-pepe {
     width: 234px;
-    height: 178px;
+    height: 158px; /* og 178px */
     background-image: url("images/bull-pepe@2x.png");
     background-image: image-set(
             url("images/bull-pepe.png") 1x,
             url("images/bull-pepe@2x.png") 2x,
             url("images/bull-pepe@3x.png") 3x
     );
+    background-position: bottom;
 }
 
-#bull-pepe-float {
-    display: none;
-    float: right;
+.distribution-flex-container {
+    margin-left: 16px;
+    margin-right: 16px;
+    min-width: 431px;
 }
 
-@media only screen and (max-width: 1055px) {
-    #ido .std-content-flex-container .std-content-flex-item-right:last-child {
-        display: none;
+.distribution-flex-container .grid-flex-item {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1135px) {
+    .bull-pepe {
+        height:178px;
     }
-    #bull-pepe-float {
-        display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+    #ido .std-content-flex-container {
+        flex-direction: column;
+    }
+
+    .distribution-flex-container {
+        min-width: auto;
+        margin-bottom: 32px;
     }
 }
 
-@media only screen and (max-width: 385px) {
-    #bull-pepe-float {
-        float: none;
-        margin: 0 auto;
+@media only screen and (max-width: 437px) {
+    .distribution-flex-container .grid-flex-item {
+        min-width: 80%;
     }
 }
 
