@@ -846,16 +846,16 @@ section {
     }
 }
 
-.std-content-flex-container {
+.std-content-flex-container, .countdown-flex-container {
     display: flex;
     margin: 0 auto;
 }
 
-.std-content-flex-item-right {
+.std-content-flex-item-right, .countdown-flex-item-right {
     flex: 1;
 }
 
-.std-content-flex-item-left {
+.std-content-flex-item-left, .countdown-flex-item-left {
     flex: 1;
 }
 
@@ -906,6 +906,33 @@ section {
     #bull-pepe-float {
         float: none;
         margin: 0 auto;
+    }
+}
+
+.countdown-flex-container {
+    justify-content: space-between;
+}
+
+.countdown-flex-item-right, .countdown-flex-item-left {
+    color: #83CEFF;
+    text-shadow: 0px 0px 8px #83CEFF;
+    font-family: 'Gothic A1', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 auto;
+    line-height: 38px;
+    flex: auto;
+    text-align: center;
+}
+
+.countdown-flex-item-right h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .countdown-flex-container {
+        flex-direction: column;
     }
 }
 
