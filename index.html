@@ -231,17 +231,17 @@
         </div>
     </div>
     <div class="content-wrapper">
-        <div class="countdown-flex-container">
-            <div class="countdown-flex-item-left">
-                <h1>IDO countdown</h1>
-                <p id="ido-countdown-elem">-</p>
-            </div>
-            <div style="flex: auto"></div>
-            <div class="countdown-flex-item-right">
-                <h1>Apps launch countdown</h1>
-                <p id="mvp-countdown-elem">-</p>
-            </div>
-        </div>
+<!--        <div class="countdown-flex-container">-->
+<!--            <div class="countdown-flex-item-left">-->
+<!--                <h1>IDO countdown</h1>-->
+<!--                <p id="ido-countdown-elem">-</p>-->
+<!--            </div>-->
+<!--            <div style="flex: auto"></div>-->
+<!--            <div class="countdown-flex-item-right">-->
+<!--                <h1>Apps launch countdown</h1>-->
+<!--                <p id="mvp-countdown-elem">-</p>-->
+<!--            </div>-->
+<!--        </div>-->
         For updates, IDO announcement and product launch, follow on <a href="https://twitter.com/sonsofcryptolab" target="_blank">Twitter</a>,
         sign up for <a href="https://forms.gle/jxsZYN1jHRYeMK1Y6" target="_blank">eMail notification</a>, join <a href="https://t.me/+osHUInXKmwMyZjQ0" target="_blank">Telegram</a>,
         or <a href="https://discord.gg/ptJGvwGkEj" target="_blank">Discord</a>.
@@ -388,26 +388,26 @@
     </div>
 </footer>
 </body>
-<script>
-    function countDown(toDate, elemId) {
-        let now = new Date().getTime();
-        let distance = toDate - now;
-        let months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30.5));
-        let weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7) - (4.3 * months));
-        let days = Math.floor(distance / (1000 * 60 * 60 * 24) - (7 * (weeks + 4.3 * months)));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        let monthsStr = months > 0 ? months + "m " : ""
-        let weekStr = weeks > 0 ? weeks + "w " : ""
-        document.getElementById(elemId).innerHTML = monthsStr + weekStr + days + "d "
-            + hours + "h " + minutes + "m " + seconds + "s ";
-    }
+<!--<script>-->
+<!--    function countDown(toDate, elemId) {-->
+<!--        let now = new Date().getTime();-->
+<!--        let distance = toDate - now;-->
+<!--        let months = Math.floor(distance / (1000 * 60 * 60 * 24 * 30.5));-->
+<!--        let weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7) - (4.3 * months));-->
+<!--        let days = Math.floor(distance / (1000 * 60 * 60 * 24) - (7 * (weeks + 4.3 * months)));-->
+<!--        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));-->
+<!--        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));-->
+<!--        let seconds = Math.floor((distance % (1000 * 60)) / 1000);-->
+<!--        let monthsStr = months > 0 ? months + "m " : ""-->
+<!--        let weekStr = weeks > 0 ? weeks + "w " : ""-->
+<!--        document.getElementById(elemId).innerHTML = monthsStr + weekStr + days + "d "-->
+<!--            + hours + "h " + minutes + "m " + seconds + "s ";-->
+<!--    }-->
 
-    let idoCountDown = new Date("Jun 30, 2022 16:00:00 UTC").getTime();
-    let mvpCountDown = new Date("Jul 13, 2022 16:00:00 UTC").getTime();
+<!--    let idoCountDown = new Date("Jun 30, 2022 16:00:00 UTC").getTime();-->
+<!--    let mvpCountDown = new Date("Jul 13, 2022 16:00:00 UTC").getTime();-->
 
-    setInterval(function() { countDown(idoCountDown, "ido-countdown-elem")  }, 1000);
-    setInterval(function() { countDown(mvpCountDown, "mvp-countdown-elem")  }, 1000);
-</script>
+<!--    setInterval(function() { countDown(idoCountDown, "ido-countdown-elem")  }, 1000);-->
+<!--    setInterval(function() { countDown(mvpCountDown, "mvp-countdown-elem")  }, 1000);-->
+<!--</script>-->
 </html>
