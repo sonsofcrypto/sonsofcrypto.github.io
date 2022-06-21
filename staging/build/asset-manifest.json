@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/staging/static/css/main.8ba1ea85.css",
+    "main.js": "/staging/static/js/main.c43f84f2.js",
+    "static/media/RobotoMono-Regular.ttf": "/staging/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "index.html": "/staging/index.html",
+    "static/media/SEGA.woff": "/staging/static/media/SEGA.31d6cfe0d16ae931b73c.woff",
+    "main.8ba1ea85.css.map": "/staging/static/css/main.8ba1ea85.css.map",
+    "main.c43f84f2.js.map": "/staging/static/js/main.c43f84f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ba1ea85.css",
+    "static/js/main.c43f84f2.js"
+  ]
+}

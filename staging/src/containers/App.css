@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Mono'),
+        url('../../public/fonts/RobotoMono/static/RobotoMono-Regular.ttf')
+        format('truetype');
+}
+
+h1 {
+    font-family: 'Roboto Mono', "Linux Biolinum Keyboard";
+    color: #0ccac4;
+    font-weight: normal;
+}

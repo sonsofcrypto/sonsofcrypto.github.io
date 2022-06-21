@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-Regular.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Naoko AA'),
+    url('../public/fonts/Naoko/AA_Naoko-03-Regular.otf')
+    format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
