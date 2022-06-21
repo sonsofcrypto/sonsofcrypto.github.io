@@ -4,6 +4,7 @@ import SearchBox from "../components/SearchBox"
 import Scroll from "./Scroll.js"
 import ErrorBoundary from "../components/ErrorBoundary";
 import './App.css';
+import Header from "../components/Header";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
 
     return (
         <div className="tc">
+            <Header/>
             <h1 className="f1">Robot friends</h1>
             <SearchBox searchChange={onSearchChange} />
             <Scroll>
