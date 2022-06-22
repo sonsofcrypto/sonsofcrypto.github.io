@@ -1,12 +1,26 @@
 .header {
     width: 100%; /* 1919px;*/
-    height: 918px;
     display: block;
-    background-image: url("../../public/images/header/bg01.svg");
-    background-repeat: repeat;
-    background-size: contain;
     margin: 0 auto;
 }
+
+.nav-container {
+    width: 100%;
+    height: 91px;
+    background-color: black;
+}
+
+.background {
+    width: 100%;   /* 1919px;*/
+    height: 916px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background-image: url("../../public/images/header/bg01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .stars {
     width: 100%;
     height: 100%;
@@ -14,13 +28,59 @@
     background-repeat: repeat;
     background-size: contain;
     margin: 0 auto;
+    z-index: 100;
+    position: absolute;
 }
+
 .sun {
     width: 895px;
     height: 625px;
     display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
     background-image: url("../../public/images/header/sun_palms.svg");
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
+    mix-blend-mode: lighten;
+}
+
+.bottom {
+    width: 100%;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+
+.logo-container {
+    flex: 1;
+    position: relative;
+}
+
+.logo {
+    width: 295px;   /* 1919px;*/
+    height: 169px;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    top: -97%;
+    right: 0;
+    left: 0;
+    background-image: url("../../public/images/header/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 200;
+}
+
+.tagline {
+    font-family: 'Naoko AA';
+    /*font-family: 'Roboto Mono', "Linux Biolinum Keyboard";*/
+    font-style: italic;
+    font-weight: 900;
+    font-size: 37px;
+    flex: 1;
+    background: green;
 }

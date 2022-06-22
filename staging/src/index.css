@@ -1,3 +1,40 @@
+/* 100 */
+/* 200 light */
+/* 300 semilight */
+/* 400 normal */
+/* 500 */
+/* 600 semibold */
+/* 700 bold */
+/* 800 extrabold */
+/* 900 black */
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-Thin.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-ExtraLight.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-Light.ttf')
+      format('truetype');
+}
+
 @font-face {
   font-family: 'Roboto Mono';
   font-style: normal;
@@ -8,12 +45,223 @@
 }
 
 @font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-Medium.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-SemiBold.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto Mono'),
+  url('../public/fonts/RobotoMono/static/RobotoMono-Bold.ttf')
+  format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-ThinItalic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-ExtraLightItalic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-LightItalic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-Italic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-MediumItalic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Roboto Mono'),
+  url('../public/fonts/RobotoMono/static/RobotoMono-SemiBoldItalic.ttf')
+  format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Roboto Mono'),
+      url('../public/fonts/RobotoMono/static/RobotoMono-BoldItalic.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-01-Light.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-02-Semilight.otf')
+  format('opentype');
+}
+
+@font-face {
   font-family: 'Naoko AA';
   font-style: normal;
   font-weight: normal;
   src: local('Naoko AA'),
-    url('../public/fonts/Naoko/AA_Naoko-03-Regular.otf')
+  url('../public/fonts/Naoko/AA_Naoko-03-Regular.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-04-Medium.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-05-Bold.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-06-Extrabold.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-07-Black.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Naoko AA'),
+    url('../public/fonts/Naoko/AA_Naoko-01-Light-italic.otf')
     format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-02-Semilight-italic.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-03-Regular-italic.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-04-Medium-italic.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-05-Bold-italic.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-06-Extrabold-italic.otf')
+  format('opentype');
+}
+
+@font-face {
+  font-family: 'Naoko AA';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Naoko AA'),
+  url('../public/fonts/Naoko/AA_Naoko-07-Black-italic.otf')
+  format('opentype');
+}
+
+html {
+  background-color: black;
 }
 
 body {

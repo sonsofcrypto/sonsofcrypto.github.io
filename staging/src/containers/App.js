@@ -37,11 +37,12 @@ function App() {
             <Header/>
             <h1 className="f1">Robot friends</h1>
             <SearchBox searchChange={onSearchChange} />
-            <Scroll>
-                <ErrorBoundary>
-                    <CardList robots={filteredRobots} />
-                </ErrorBoundary>
-            </Scroll>
+            <CardList robots={filteredRobots} />
+            {/*<Scroll>*/}
+            {/*    <ErrorBoundary>*/}
+            {/*        <CardList robots={filteredRobots} />*/}
+            {/*    </ErrorBoundary>*/}
+            {/*</Scroll>*/}
         </div>
     )
 }
