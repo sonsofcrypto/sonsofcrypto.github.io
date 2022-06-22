@@ -1,15 +1,45 @@
 {
   "files": {
-    "main.css": "/staging/static/css/main.8ba1ea85.css",
-    "main.js": "/staging/static/js/main.c43f84f2.js",
+    "main.css": "/staging/static/css/main.d9992672.css",
+    "main.js": "/staging/static/js/main.7bb25ad5.js",
+    "static/media/sun_palms.svg": "/staging/static/media/sun_palms.54f6a7fdad29125a1417.svg",
+    "static/media/logo.svg": "/staging/static/media/logo.517a254e42cbddb158c5.svg",
+    "static/media/RobotoMono-BoldItalic.ttf": "/staging/static/media/RobotoMono-BoldItalic.3dfe67d830ea0b72eddc.ttf",
+    "static/media/RobotoMono-MediumItalic.ttf": "/staging/static/media/RobotoMono-MediumItalic.31ec117c2c2363e8b37f.ttf",
+    "static/media/RobotoMono-SemiBoldItalic.ttf": "/staging/static/media/RobotoMono-SemiBoldItalic.5f71cfa4d6357c7484aa.ttf",
+    "static/media/RobotoMono-Italic.ttf": "/staging/static/media/RobotoMono-Italic.f737da33109e58186a40.ttf",
+    "static/media/RobotoMono-LightItalic.ttf": "/staging/static/media/RobotoMono-LightItalic.767b85c06aff5d9bfde7.ttf",
+    "static/media/RobotoMono-ExtraLightItalic.ttf": "/staging/static/media/RobotoMono-ExtraLightItalic.6bd1a534585f815aa952.ttf",
+    "static/media/RobotoMono-ThinItalic.ttf": "/staging/static/media/RobotoMono-ThinItalic.78d61c4ed1411d7e6c27.ttf",
+    "static/media/RobotoMono-Thin.ttf": "/staging/static/media/RobotoMono-Thin.30914900129fa3d2d85b.ttf",
+    "static/media/RobotoMono-ExtraLight.ttf": "/staging/static/media/RobotoMono-ExtraLight.fd4e93a8d7b1ea7f0afa.ttf",
+    "static/media/RobotoMono-Light.ttf": "/staging/static/media/RobotoMono-Light.835ca7f9aef703b479ca.ttf",
+    "static/media/RobotoMono-SemiBold.ttf": "/staging/static/media/RobotoMono-SemiBold.04a996641b468a3c10d7.ttf",
+    "static/media/RobotoMono-Bold.ttf": "/staging/static/media/RobotoMono-Bold.1d29748c6ba7e786c050.ttf",
     "static/media/RobotoMono-Regular.ttf": "/staging/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "static/media/RobotoMono-Medium.ttf": "/staging/static/media/RobotoMono-Medium.e04fa2d8ef59775dc652.ttf",
+    "static/media/AA_Naoko-06-Extrabold.otf": "/staging/static/media/AA_Naoko-06-Extrabold.f13a895caa88f0a9893e.otf",
+    "static/media/AA_Naoko-05-Bold.otf": "/staging/static/media/AA_Naoko-05-Bold.d2a731f91275d7caaff8.otf",
+    "static/media/AA_Naoko-04-Medium-italic.otf": "/staging/static/media/AA_Naoko-04-Medium-italic.66c12b1bce959a42a271.otf",
+    "static/media/AA_Naoko-05-Bold-italic.otf": "/staging/static/media/AA_Naoko-05-Bold-italic.b0d272e6f41a6a9495e0.otf",
+    "static/media/AA_Naoko-04-Medium.otf": "/staging/static/media/AA_Naoko-04-Medium.289124c7091eca8877e2.otf",
+    "static/media/AA_Naoko-06-Extrabold-italic.otf": "/staging/static/media/AA_Naoko-06-Extrabold-italic.94e8c50c426bb5ad0a28.otf",
+    "static/media/AA_Naoko-03-Regular-italic.otf": "/staging/static/media/AA_Naoko-03-Regular-italic.f4871e09a6b01c2a2dfa.otf",
+    "static/media/AA_Naoko-02-Semilight-italic.otf": "/staging/static/media/AA_Naoko-02-Semilight-italic.61fc487293cefa7a43cb.otf",
+    "static/media/AA_Naoko-03-Regular.otf": "/staging/static/media/AA_Naoko-03-Regular.6c02c52d2b28606a339e.otf",
+    "static/media/AA_Naoko-02-Semilight.otf": "/staging/static/media/AA_Naoko-02-Semilight.c8030ca8dddb872e114c.otf",
+    "static/media/AA_Naoko-07-Black.otf": "/staging/static/media/AA_Naoko-07-Black.ec8c50138391566f1f6b.otf",
+    "static/media/AA_Naoko-07-Black-italic.otf": "/staging/static/media/AA_Naoko-07-Black-italic.10a205bb381edcebdefd.otf",
+    "static/media/AA_Naoko-01-Light-italic.otf": "/staging/static/media/AA_Naoko-01-Light-italic.24f2264bc8d4429c5c82.otf",
+    "static/media/AA_Naoko-01-Light.otf": "/staging/static/media/AA_Naoko-01-Light.0a2215398f5c311c0509.otf",
+    "static/media/starts.svg": "/staging/static/media/starts.7cebf53174506a311b59.svg",
     "index.html": "/staging/index.html",
-    "static/media/SEGA.woff": "/staging/static/media/SEGA.31d6cfe0d16ae931b73c.woff",
-    "main.8ba1ea85.css.map": "/staging/static/css/main.8ba1ea85.css.map",
-    "main.c43f84f2.js.map": "/staging/static/js/main.c43f84f2.js.map"
+    "static/media/bg01.svg": "/staging/static/media/bg01.80b4db62b042b900c95d.svg",
+    "main.d9992672.css.map": "/staging/static/css/main.d9992672.css.map",
+    "main.7bb25ad5.js.map": "/staging/static/js/main.7bb25ad5.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ba1ea85.css",
-    "static/js/main.c43f84f2.js"
+    "static/css/main.d9992672.css",
+    "static/js/main.7bb25ad5.js"
   ]
 }
