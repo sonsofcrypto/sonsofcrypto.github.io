@@ -35,13 +35,13 @@ function App() {
     return (
         <div className="tc">
             <Header/>
-            <h1 className="f1">Robot friends</h1>
-            <SearchBox searchChange={onSearchChange} />
-            <CardList robots={filteredRobots} />
+            {/*<h1 className="f1">Robot friends</h1>*/}
+            {/*<SearchBox searchChange={onSearchChange} />*/}
+            {/*<CardList robots={filteredRobots} />*/}
             {/*<Scroll>*/}
             {/*    <ErrorBoundary>*/}
-            {/*        <CardList robots={filteredRobots} />*/}
-            {/*    </ErrorBoundary>*/}
+                    {/*<CardList robots={filteredRobots} />*/}
+                {/*</ErrorBoundary>*/}
             {/*</Scroll>*/}
         </div>
     )

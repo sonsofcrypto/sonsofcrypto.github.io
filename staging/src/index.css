@@ -260,7 +260,7 @@
   format('opentype');
 }
 
-html {
+html, body {
   background-color: black;
 }
 
@@ -271,7 +271,7 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to top, #2C3B68, #171515);
+  /*background: linear-gradient(to top, #2C3B68, #171515);*/
 }
 
 code {
