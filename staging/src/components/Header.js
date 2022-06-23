@@ -5,8 +5,8 @@ const Header = (props) => {
     const { progress } = props;
     return (
         <div className='header'>
-            <div className='nav-container'>
-                <div className='soc-logo'>sons of crypto</div>
+            <div className='nav-container section-container section-padded'>
+                <div className='soc-logo'><a href='#'>sons of crypto</a></div>
                 <ul>
                     <li><a href='#'>Wallet</a></li>
                     <li><a href='#'>Roadmap</a></li>

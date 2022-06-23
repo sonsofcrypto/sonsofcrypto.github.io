@@ -6,10 +6,10 @@ svg {
     width: 100%; /* 1919px;*/
     display: block;
     margin: 0 auto;
+    background-color: black;
 }
 
 .nav-container {
-    width: 90%;
     height: 91px;
     margin: 0 auto;
     background-color: black;
@@ -19,13 +19,17 @@ svg {
     justify-content: space-between;
 }
 
-.soc-logo {
+.soc-logo a {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 23px;
     text-transform: uppercase;
     color: white;
     text-decoration: line-through 3px black;
+}
+
+.soc-logo a:hover {
+    border-bottom: solid 2px white;
 }
 
 .nav-container ul {
@@ -99,17 +103,19 @@ svg {
 }
 
 .logo {
-    width: 295px;   /* 1919px;*/
-    height: 169px;
+    width: 335px;   /* 1919px;*/
+    /*height: 169px;*/
+    height: 213px;
     display: block;
     position: absolute;
     margin: 0 auto;
-    top: -97%;
+    top: -120%;
     right: 0;
     left: 0;
     background-image: url("../../public/images/header/logo.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    Background-clip: unset;
     z-index: 200;
     overflow: visible !important;
 }

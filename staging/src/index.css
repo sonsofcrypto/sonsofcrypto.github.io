@@ -262,16 +262,20 @@
 
 html, body {
   background-color: black;
+  margin: 0;
 }
 
 body {
-  margin: 0;
   font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: normal;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background: linear-gradient(to top, #2C3B68, #171515);*/
+  background: linear-gradient(to top, #2C3B68, #171515);
+  min-height: 100%;
 }
 
 code {

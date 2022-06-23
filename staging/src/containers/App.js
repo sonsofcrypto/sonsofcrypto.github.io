@@ -5,6 +5,7 @@ import Scroll from "./Scroll.js"
 import ErrorBoundary from "../components/ErrorBoundary";
 import './App.css';
 import Header from "../components/Header";
+import Wallet from "../components/Wallet";
 
 function App() {
 
@@ -26,23 +27,24 @@ function App() {
         return robot.name.includes(searchField)
     })
 
-    if (robots.length === 0) {
-        return <div className="tc">
-            <h1 className="tc">Loading</h1>
-        </div>
-    }
+    // if (robots.length === 0) {
+    //     return <div className="tc">
+    //         <h1 className="tc">Loading</h1>
+    //     </div>
+    // }
 
     return (
         <div className="tc">
-            <Header/>
-            {/*<h1 className="f1">Robot friends</h1>*/}
-            {/*<SearchBox searchChange={onSearchChange} />*/}
-            {/*<CardList robots={filteredRobots} />*/}
-            {/*<Scroll>*/}
-            {/*    <ErrorBoundary>*/}
-                    {/*<CardList robots={filteredRobots} />*/}
-                {/*</ErrorBoundary>*/}
-            {/*</Scroll>*/}
+            <ErrorBoundary>
+                <Header/>
+                <Wallet/>
+                <h1 className="f1">Robot friends</h1>
+                <SearchBox searchChange={onSearchChange} />
+                <CardList robots={filteredRobots} />
+                {/*<Scroll>*/}
+                    <CardList robots={filteredRobots} />
+                {/*</Scroll>*/}
+            </ErrorBoundary>
         </div>
     )
 }

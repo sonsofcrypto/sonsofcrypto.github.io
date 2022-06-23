@@ -12,3 +12,14 @@ h1 {
     color: #0ccac4;
     font-weight: normal;
 }
+
+.section-container {
+    margin: 0 auto;
+    max-width: 1447px;
+}
+
+.section-padded {
+    margin: 0 auto;
+    padding-left: 42px;
+    padding-right: 42px;
+}
