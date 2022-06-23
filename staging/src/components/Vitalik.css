@@ -6,7 +6,6 @@
 
 .vitalik-container img {
     margin: 0 auto;
-    position: absolute;
     left: 0; right: 0;
 }
 
@@ -15,6 +14,7 @@
 }
 
 .vitalik-container img:last-child {
+    position: absolute;
     animation: animateItalik 9s linear infinite;
 }
 

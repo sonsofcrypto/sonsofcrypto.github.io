@@ -1,0 +1,17 @@
+.wallet, .wallet-left-text, .wallet-right-text {
+    display: flex;
+}
+
+.wallet-left-text, .wallet-right-text {
+    flex-direction: column;
+}
+
+.wallet-left-text {
+    text-align: right;
+    flex: 1;
+}
+
+.wallet-right-text {
+    text-align: left;
+    flex: 1;
+}
