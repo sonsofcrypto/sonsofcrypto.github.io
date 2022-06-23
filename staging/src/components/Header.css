@@ -109,7 +109,7 @@ svg {
     display: block;
     position: absolute;
     margin: 0 auto;
-    top: -120%;
+    top: -115%;
     right: 0;
     left: 0;
     background-image: url("../../public/images/header/logo.svg");

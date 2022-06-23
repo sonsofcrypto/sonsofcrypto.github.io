@@ -1,5 +1,31 @@
-.wallet, .wallet-left-text, .wallet-right-text {
+.wallet, .wallet-text-container, .wallet-left-text, .wallet-right-text {
     display: flex;
+}
+
+.wallet {
+    flex-direction: column;
+}
+
+.wallet-tvs {
+    display: flex;
+    max-height: 220px;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.wallet-tvs img {
+    width: 23%;
+}
+
+.wallet-text-container {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.wallet-section-meme-container {
+    padding-top: 20px;
 }
 
 .wallet-left-text, .wallet-right-text {
@@ -9,9 +35,11 @@
 .wallet-left-text {
     text-align: right;
     flex: 1;
+    /*background-color: green;*/
 }
 
 .wallet-right-text {
     text-align: left;
     flex: 1;
+    /*background-color: blue;*/
 }
