@@ -1,11 +1,12 @@
 import React from 'react';
-import './Vitalk.css';
+import './Vitalik.css';
 
 const Vitalik = (props) => {
     const { progress } = props;
     return (
-        <div className='vitalik'>
-
+        <div className='vitalik-container'>
+            <img src='images/vitalik.svg'/>
+            <img src='images/italik.svg'/>
         </div>
     )
 }

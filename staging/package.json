@@ -2,7 +2,7 @@
   "name": "sonsofcrypo",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://sonsofcrypto.com/staging",
+  "homepage": "https://sonsofcrypto.com/staging/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
