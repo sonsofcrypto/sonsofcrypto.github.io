@@ -8,9 +8,21 @@
 }
 
 h1 {
-    font-family: 'Roboto Mono', "Linux Biolinum Keyboard";
-    color: #0ccac4;
-    font-weight: normal;
+    font-family: 'Naoko AA';
+    font-weight: 900;
+    font-size: 46px;
+}
+
+h2 {
+    font-family: 'Naoko AA';
+    font-weight: 700;
+    font-size: 37px;
+}
+
+h3 {
+    font-family: 'Naoko AA';
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .section-container {
@@ -28,4 +40,11 @@ h1 {
 .section-v-margin {
     margin-top: 104px;
     margin-bottom: 104px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-top: 141px;
 }
