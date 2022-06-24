@@ -35,11 +35,9 @@
 .wallet-left-text {
     text-align: right;
     flex: 1;
-    /*background-color: green;*/
 }
 
 .wallet-right-text {
     text-align: left;
     flex: 1;
-    /*background-color: blue;*/
 }

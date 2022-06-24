@@ -6,6 +6,7 @@ import ErrorBoundary from "../components/ErrorBoundary";
 import './App.css';
 import Header from "../components/Header";
 import Wallet from "../components/Wallet";
+import Roadmap from "../components/Roadmap";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
             <ErrorBoundary>
                 <Header/>
                 <Wallet/>
+                <Roadmap/>
                 <h1 className="f1">Robot friends</h1>
                 <SearchBox searchChange={onSearchChange} />
                 <CardList robots={filteredRobots} />

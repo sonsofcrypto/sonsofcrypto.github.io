@@ -1,0 +1,78 @@
+.line-horizontal-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.line-horizontal-left, .line-horizontal-right {
+    display: block;
+    width: 40%;
+    height: 3px;
+    background-color: #10B0A8;
+    overflow: visible;
+    position: relative;
+}
+
+.line-horizontal-left-diamond, .line-horizontal-right-diamond {
+    position: absolute;
+    color: #10B0A8;
+    top: -10.5px;
+    left: -11px;
+    z-index: 100;
+}
+
+.line-horizontal-left-diamond {
+    left: auto;
+    right: -11px;
+}
+
+.line-vertical-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-vertical {
+    width: 3px;
+    background-color: #10B0A8;
+}
+
+.roadmap-line-top {
+    width: 30%;
+}
+
+#roadmap-logo {
+    position: relative;
+    width: 40%;
+    height: 3px;
+    overflow: visible;
+}
+
+#roadmap-logo img {
+    position: absolute;
+    width: 133.89771943%;
+    margin: 0 auto;
+    left: 3%;
+    right: 0;
+    transform: translateY(-55%);
+}
+
+.roadmap-content {
+    margin: 42px auto;
+}
+
+.roadmap-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roadmap-card {
+    width: 24%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(120, 214, 58, 0.1);
+    box-shadow: 13px 13px 46px rgba(0, 0, 0, 0.18), inset 0px 2px 4px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.roadmap-card ul {
+    text-align: left;
+}
