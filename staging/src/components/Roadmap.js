@@ -15,6 +15,22 @@ const Roadmap = (props) => {
             <div className='line-vertical-container'>
                 <div className='line-vertical'></div>
                 <div className='roadmap-content'>
+
+                    <div id="roadmap-lines-wrapper">
+                        <div id="roadmap-lines-container">
+                            <div className="roadmap-line" id="roadmap-line-1"></div>
+                            <div className="roadmap-line" id="roadmap-line-2"></div>
+                            <div className="roadmap-line" id="roadmap-line-3"></div>
+                        </div>
+                    </div>
+                    <h1>roadmap</h1>
+                    <div id="timeline-container">
+                        <div className="timeline-item">Q2 2022</div>
+                        <div className="timeline-item">Q3 2022</div>
+                        <div className="timeline-item">Q4 2022</div>
+                    </div>
+
+
                     <div className="roadmap-cards">
                         <div className="roadmap-card">
                             <h1>Phase #1</h1>

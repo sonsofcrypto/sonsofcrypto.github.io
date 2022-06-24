@@ -40,11 +40,11 @@ function App() {
                 <Header/>
                 <Wallet/>
                 <Roadmap/>
-                <h1 className="f1">Robot friends</h1>
-                <SearchBox searchChange={onSearchChange} />
+                {/*<h1 className="f1">Robot friends</h1>*/}
+                {/*<SearchBox searchChange={onSearchChange} />*/}
                 <CardList robots={filteredRobots} />
                 {/*<Scroll>*/}
-                    <CardList robots={filteredRobots} />
+                {/*    <CardList robots={filteredRobots} />*/}
                 {/*</Scroll>*/}
             </ErrorBoundary>
         </div>
