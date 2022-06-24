@@ -1,0 +1,9 @@
+.video-container {
+    width: 100%;
+}
+
+#promo-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 104px;
+}

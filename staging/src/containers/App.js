@@ -7,6 +7,7 @@ import './App.css';
 import Header from "../components/Header";
 import Wallet from "../components/Wallet";
 import Roadmap from "../components/Roadmap";
+import Video from "../components/Video";
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
             <ErrorBoundary>
                 <Header/>
                 <Wallet/>
+                <Video/>
                 <Roadmap/>
                 {/*<h1 className="f1">Robot friends</h1>*/}
                 {/*<SearchBox searchChange={onSearchChange} />*/}
