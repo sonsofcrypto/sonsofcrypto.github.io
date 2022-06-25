@@ -40,12 +40,18 @@
 }
 
 .mission-text-container {
+    /*background-color: red;*/
+}
+
+.mission-content-container {
+    margin-left: 80px;
+    margin-top: 12px;
+    /*background-color: yellow;*/
 
 }
 
-.mission-content img {
-    margin-left: 80px;
-
+.mission-content-container img {
+    margin-bottom: 12px;
 }
 
 a {

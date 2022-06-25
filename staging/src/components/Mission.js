@@ -1,8 +1,23 @@
 import React from 'react';
 import './Mission.css';
+import CoverFlow from 'coverflow-react';
 
 const Mission = (props) => {
     const { progress } = props;
+    const imagesArr = [
+        'images/1.jpeg',
+        'images/2.jpeg',
+        'images/3.jpeg',
+        'images/4.jpeg',
+        'images/5.jpeg',
+        'images/6.jpeg',
+        'images/7.jpeg',
+        'images/8.jpeg',
+        'images/9.jpeg',
+        'images/10.jpeg',
+        'images/11.jpeg',
+        'images/12.jpeg',
+    ];
     return (
         <div className='section-container section-h-margin section-padded section-v-margin mission'>
             <div className='mission-h1-wrapper'>
@@ -27,7 +42,16 @@ const Mission = (props) => {
                         sign up for <a href="https://forms.gle/jxsZYN1jHRYeMK1Y6" target="_blank">eMail notification</a>, join <a href="https://t.me/+osHUInXKmwMyZjQ0" target="_blank">Telegram</a>,
                         or <a href="https://discord.gg/DW8kUu6Q6E" target="_blank">Discord</a>.                    </p>
                 </div>
-                <img src='images/tokenomics.svg'/>
+                <div className='mission-content-container'>
+                    <img src='images/tokenomics.svg'/>
+                    <CoverFlow
+                        imagesArr={imagesArr}
+                        width={500}
+                        itemRatio='1:1'
+                        background='FFFFFF00'
+                    />
+                    Check out NFTs on <a href="https://opensea.io/collection/web3wallet-nft?search[sortAscending]=false&search[sortBy]=PRICE" target="_blank">Open Sea</a> or <a href="https://looksrare.org/collections/0xf79E73dE6934B767De0fAa120d059811A40276d9?queryID=86a1482ff2d8a3957dbb455af9e123b3" target="_blank">Looks Rare</a>
+                </div>
             </div>
         </div>
     )
