@@ -5,18 +5,19 @@ import CoverFlow from 'coverflow-react';
 const Mission = (props) => {
     const { progress } = props;
     const imagesArr = [
-        'images/1.jpeg',
-        'images/2.jpeg',
-        'images/3.jpeg',
-        'images/4.jpeg',
-        'images/5.jpeg',
-        'images/6.jpeg',
-        'images/7.jpeg',
-        'images/8.jpeg',
-        'images/9.jpeg',
-        'images/10.jpeg',
-        'images/11.jpeg',
-        'images/12.jpeg',
+        'images/nfts/1.jpeg',
+        'images/nfts/2.jpeg',
+        'images/nfts/3.jpeg',
+        'images/nfts/4.jpeg',
+        'images/nfts/5.jpeg',
+        'images/nfts/6.jpeg',
+        'images/nfts/7.jpeg',
+        'images/nfts/8.jpeg',
+        'images/nfts/9.jpeg',
+        'images/nfts/10.jpeg',
+        'images/nfts/11.jpeg',
+        'images/nfts/12.jpeg',
+        'images/nfts/13.jpeg',
     ];
     return (
         <div className='section-container section-h-margin section-padded section-v-margin mission'>
