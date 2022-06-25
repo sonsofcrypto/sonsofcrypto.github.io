@@ -282,3 +282,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-family: 'Naoko AA';
+  font-weight: 900;
+  font-size: 46px;
+}
+
+h2 {
+  font-family: 'Naoko AA';
+  font-weight: 700;
+  font-size: 37px;
+}
+
+h3 {
+  font-family: 'Naoko AA';
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.section-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1447px;
+}
+
+.section-padded {
+  margin: 0 auto;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.section-v-margin {
+  margin-top: 104px;
+  margin-bottom: 104px;
+}
+
+.section-h-margin {
+  margin-left: 42px;
+  margin-right: 42px;
+  max-width: 1363px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*background: #00000019;*/
+  background: #FFFFFF19;
+  width: 10%;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF19;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF30;
+}

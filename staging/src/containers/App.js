@@ -9,6 +9,7 @@ import Wallet from "../components/Wallet";
 import Roadmap from "../components/Roadmap";
 import Video from "../components/Video";
 import Mission from "../components/Mission";
+import Products from "../components/Products";
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
                 <Video/>
                 <Roadmap/>
                 <Mission/>
+                <Products/>
                 {/*<h1 className="f1">Robot friends</h1>*/}
                 {/*<SearchBox searchChange={onSearchChange} />*/}
                 <CardList robots={filteredRobots} />

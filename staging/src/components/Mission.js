@@ -20,7 +20,7 @@ const Mission = (props) => {
         'images/nfts/13.jpeg',
     ];
     return (
-        <div className='section-container section-h-margin section-padded section-v-margin mission'>
+        <div className='margin-auto section-container section-h-margin section-padded section-v-margin mission'>
             <div className='mission-h1-wrapper'>
                 <h1>Mission & tokenomics</h1>
                 <div className='mision-h-line-thin'/>
