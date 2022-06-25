@@ -41,3 +41,18 @@ h3 {
     margin-top: 104px;
     margin-bottom: 104px;
 }
+
+.section-h-margin {
+    margin-left: 42px;
+    margin-right: 42px;
+    max-width: 1363px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
