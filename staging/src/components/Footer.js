@@ -15,7 +15,7 @@ const Footer = (props) => {
                         </div>
                     </div>
 
-                    <div className='links links-one-row'>
+                    <div className='footer-links footer-links-one-row'>
                         <ul>
                             <li><a href="https://twitter.com/sonsofcryptolab" target="_blank"><img src='images/social/twitter.svg'/></a></li>
                             <li><a href="https://t.me/socweb3" target="_blank"><img src='images/social/telegram.svg'/></a></li>
@@ -27,7 +27,7 @@ const Footer = (props) => {
                             <li><a href="mailto:sonsofcrypto@protonmail.com" target="_blank"><img src='images/social/protonmail.svg'/></a></li>
                         </ul>
                     </div>
-                    <div className='links links-two-rows'>
+                    <div className='footer-links footer-links-two-rows'>
                         <ul>
                             <li><a href="https://twitter.com/sonsofcryptolab" target="_blank"><img src='images/social/twitter.svg'/></a></li>
                             <li><a href="https://t.me/socweb3" target="_blank"><img src='images/social/telegram.svg'/></a></li>
@@ -41,7 +41,7 @@ const Footer = (props) => {
                             <li><a href="mailto:sonsofcrypto@protonmail.com" target="_blank"><img src='images/social/protonmail.svg'/></a></li>
                         </ul>
                     </div>
-                    <div className='links links-text'>
+                    <div className='footer-links footer-links-text'>
                         <ul>
                             <li><a href="https://sonsofcrypto.com/web3wallet_promo_images.zip" target="_blank">Promo images</a></li>
                             <li><a href="https://sonsofcrypto.com/web3wallet_whitepaper.pdf" target="_blank">White paper</a></li>
