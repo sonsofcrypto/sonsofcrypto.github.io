@@ -1,8 +1,6 @@
 .team-container {
     margin-top: 36px;
     margin-bottom: 36px;
-    /*background-color: red;*/
-
 }
 
 .team-container h1 {
@@ -21,21 +19,32 @@
 .team-members-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
     margin: 16px 16px 16px 16px;
+    margin: 0 auto;
 }
 
 .team-member {
     display: flex;
     flex-direction: column;
-    width: 100%;
     max-width: 320px;
     margin-left: 6px;
     margin-right: 6px;
+    min-width: 200px;
+}
+
+@media only screen and (max-width: 755px) {
+    .team-member {
+        max-width: 46%;
+        min-width: 150px;
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 
 .team-member img {
@@ -43,7 +52,5 @@
 }
 
 .team-member ul {
-    margin-left: 20px;
     padding-left: 20px;
 }
-

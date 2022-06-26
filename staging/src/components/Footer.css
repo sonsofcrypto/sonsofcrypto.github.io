@@ -55,16 +55,13 @@
     display: none;
 }
 
-.footer-links-two-rows ul:last-child {
-    margin-top: 4px;
-}
-
 .footer-links-two-rows ul li, .footer-links-text ul li  {
     margin-top: 4px;
 }
+
 @media only screen and (max-width: 523px) {
     .footer-links-one-row { display: none; }
-    .footer-links-two-rows { display: unset; }
+    .footer-links-two-rows { display: block; }
     .footer-content-wrapper .tagline { font-size: 26px }
 }
 
@@ -74,4 +71,8 @@
 
 .footer-links-text ul li:hover {
     transform: unset;
+}
+
+.footer-links-two-rows ul:first-child {
+    margin-top: 16px;
 }
