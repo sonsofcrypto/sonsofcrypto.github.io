@@ -1,3 +1,61 @@
 .footer-wrapper {
-    background-color: darkgray;
+    background-color: black;
+    background-image: url("/public/images/footer-bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover;
+    transition: all 0.1s ease-in-out;
+}
+
+.footer-spacer {
+    margin: 0 auto;
+    aspect-ratio: 16 / 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.footer-content-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#footer-logo-img {
+    width: 335px;
+    margin: 0 auto;
+}
+
+.links ul, .links ul li {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+.links ul li {
+    display: inline-block;
+    transition: all 0.1s ease-in-out;
+    margin: 12px;
+    margin-top: 30px;
+}
+
+.links ul li:hover {
+    transform: scale(1.25, 1.25);
+}
+
+.links-text ul li {
+    margin-top: 4px;
+}
+
+.links-text ul li a {
+    color: #FFFFFF50;
+}
+
+.links-text ul li:hover {
+    transform: unset;
 }
