@@ -10,6 +10,8 @@ import Roadmap from "../components/Roadmap";
 import Video from "../components/Video";
 import Mission from "../components/Mission";
 import Products from "../components/Products";
+import Footer from "../components/Footer";
+import Team from "../components/Team";
 
 function App() {
 
@@ -40,15 +42,19 @@ function App() {
     return (
         <div className="tc">
             <ErrorBoundary>
-                <Header/>
-                <Wallet/>
-                <Video/>
-                <Roadmap/>
-                <Mission/>
-                <Products/>
+                <div className='main-content-wrapper'>
+                    <Header/>
+                    <Wallet/>
+                    <Video/>
+                    <Roadmap/>
+                    <Mission/>
+                    <Products/>
+                </div>
+                <Team/>
+                <Footer/>
                 {/*<h1 className="f1">Robot friends</h1>*/}
                 {/*<SearchBox searchChange={onSearchChange} />*/}
-                <CardList robots={filteredRobots} />
+                {/*<CardList robots={filteredRobots} />*/}
                 {/*<Scroll>*/}
                 {/*    <CardList robots={filteredRobots} />*/}
                 {/*</Scroll>*/}

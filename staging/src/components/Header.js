@@ -10,8 +10,8 @@ const Header = (props) => {
                 <ul>
                     <li><a href='#'>Wallet</a></li>
                     <li><a href='#'>Roadmap</a></li>
-                    <li><a href='#'>Mission</a></li>
-                    <li><a href='#'>SDK & Apps</a></li>
+                    <li><a href='#'>Mission & Tokenomics</a></li>
+                    <li><a href='#'>Products</a></li>
                     <li><a href='#'>Whitepaper</a></li>
                     <li><a href='#'>Social</a></li>
                 </ul>
