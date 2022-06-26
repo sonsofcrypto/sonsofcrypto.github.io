@@ -37,15 +37,43 @@
     padding: 0 0 0 0;
 }
 
+.links ul {
+    margin-top: 30px;
+}
+
 .links ul li {
     display: inline-block;
     transition: all 0.1s ease-in-out;
     margin: 12px;
-    margin-top: 30px;
 }
 
 .links ul li:hover {
     transform: scale(1.25, 1.25);
+}
+
+.links-two-rows {
+    display: none;
+}
+
+.links-two-rows ul:last-child {
+    margin-top: 4px;
+}
+
+.links-two-rows ul li {
+    margin-top: 4px;
+}
+@media only screen and (max-width: 523px) {
+    .links-one-row { display: none; }
+    .links-two-rows { display: unset; }
+    .footer-content-wrapper .tagline { font-size: 26px }
+}
+
+.links-text {
+    /*background-color: red;*/
+}
+
+.links-text ul {
+    /*background-color: blue;*/
 }
 
 .links-text ul li {

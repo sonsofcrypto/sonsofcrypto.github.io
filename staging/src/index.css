@@ -321,15 +321,38 @@ code {
 
 .margin-h-2 {
   max-width: 1363px;
+  margin-right: 42px;
+  margin-left: 42px;
 }
 
 .margin-h-3 {
-  max-width: 1185px;
+  max-width: 1279px;
+  margin-right: 84px;
+  margin-left: 842px;
 }
 
 .margin-v-1 {
   margin-top: 104px;
   margin-bottom: 104px;
+}
+
+@media only screen and (max-width: 700px) {
+  .margin-h-2 {
+    max-width: 668px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .margin-h-3 {
+    width: 100%;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .margin-v-1 {
+    margin-top: 104px;
+    margin-bottom: 104px;
+  }
 }
 
 h1 {
