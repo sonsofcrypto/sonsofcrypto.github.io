@@ -5,7 +5,7 @@ const Header = (props) => {
     const { progress } = props;
     return (
         <div className='header'>
-            <div className='nav-container section-container section-padded'>
+            <div className='nav-container margin-auto margin-h-1 margin-h-2-padded'>
                 <div className='soc-logo'><a href='#'>sons of crypto</a></div>
                 <ul>
                     <li><a href='#wallet'>Wallet</a></li>
@@ -16,7 +16,7 @@ const Header = (props) => {
                     <li><a href='#social'>Social</a></li>
                 </ul>
             </div>
-            <div className='background'>
+            <div className='header-background'>
                 <div className='stars'></div>
                 <div className='sun'></div>
             </div>

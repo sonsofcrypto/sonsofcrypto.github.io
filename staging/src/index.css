@@ -287,29 +287,6 @@ code {
     monospace;
 }
 
-.section-container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1447px;
-}
-
-.section-padded {
-  margin: 0 auto;
-  padding-left: 42px;
-  padding-right: 42px;
-}
-
-.section-v-margin {
-  margin-top: 104px;
-  margin-bottom: 104px;
-}
-
-.section-h-margin {
-  margin-left: 42px;
-  margin-right: 42px;
-  max-width: 1363px;
-}
-
 .margin-auto {
   margin: 0 auto;
 }
