@@ -17,6 +17,7 @@ svg {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    overflow: visible;
 }
 
 .soc-logo a {
@@ -34,22 +35,99 @@ svg {
 
 .nav-container ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .nav-container ul li {
     display: inline-block;
 }
 
-.nav-container ul li a {
+.nav-container ul li button {
     font-family: 'Roboto Mono';
     font-size: 20px;
     color: white;
     text-decoration: none;
     padding-left: 22px;
+    background-color: black;
+    border: none;
 }
 
-.nav-container ul li a:hover {
+.nav-container ul li button:hover {
     text-decoration: underline;
+}
+
+.dropdown-wrapper {
+    display: none;
+}
+
+#main-nav-ul {
+    display: block;
+}
+
+@media only screen and (max-width: 1147px) {
+    .nav-container ul li button {
+        font-size: 20px;
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 1087px) {
+    .nav-container ul li button {
+        font-size: 20px;
+        padding-left: 12px;
+    }
+    .soc-logo {
+        display: inline;
+        flex-shrink: 1000;
+        min-width: 104px;
+    }
+    #main-nav-ul { flex-grow: 1000; }
+
+    .nav-container {
+        padding-left: 16px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    #main-nav-ul { width: 100%;}
+}
+
+@media only screen and (max-width: 919px) {
+    #main-nav-ul { width: 100%;}
+    .nav-container ul li button { font-size: 18px; padding-left: 8px;}
+}
+
+@media only screen and (max-width: 826px) {
+    #main-nav-ul { flex-grow: unset; }
+    .nav-container ul li button {
+        font-size: 20px;
+        padding-left: 12px;
+    }
+
+    .soc-logo {
+        flex-shrink: unset;
+        display: block;
+        min-width: 220px;
+    }
+
+    .nav-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media only screen and (max-width: 707px) {
+    .soc-logo { min-width: 104px; }
+}
+
+@media only screen and (max-width: 673px) {
+    .dropdown-wrapper {
+        display: block;
+    }
+    #main-nav-ul {
+        display: none;
+    }
 }
 
 .header-background {
@@ -159,3 +237,4 @@ svg {
         line-height: 34px;
     }
 }
+
