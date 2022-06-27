@@ -1,6 +1,49 @@
 import React from 'react';
 import './Mission.css';
 import CoverFlow from 'coverflow-react';
+import { useState, useEffect } from 'react';
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+        width,
+        height
+    };
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions());
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    return windowDimensions;
+}
+
+function coverflowWidth(width) {
+    if (width < 500) {
+        return 300
+    }
+    if (width < 1000) {
+        return 500
+    }
+    if (width < 1060) {
+        return 425
+    }
+    if (width < 1120) {
+        return 450
+    }
+    if (width < 1260) {
+        return 475
+    }
+    return 500
+}
 
 const Mission = (props) => {
     const { progress } = props;
@@ -19,8 +62,9 @@ const Mission = (props) => {
         'images/nfts/12.jpeg',
         'images/nfts/13.jpeg',
     ];
+    const { height, width } = useWindowDimensions();
     return (
-        <div className='margin-auto section-container section-h-margin section-padded section-v-margin mission'>
+        <div id='mission' className='margin-auto margin-h-2 margin-h-2-padded margin-v-1 mission'>
             <div className='mission-h1-wrapper'>
                 <h1>Mission & tokenomics</h1>
                 <div className='mision-h-line-thin'/>
@@ -45,14 +89,21 @@ const Mission = (props) => {
                 </div>
                 <div className='mission-content-container'>
                     <img src='images/tokenomics.svg'/>
-                    <CoverFlow
-                        imagesArr={imagesArr}
-                        width={500}
-                        itemRatio='1:1'
-                        background='FFFFFF00'
-                    />
-                    Check out NFTs on <a href="https://opensea.io/collection/web3wallet-nft?search[sortAscending]=false&search[sortBy]=PRICE" target="_blank">Open Sea</a> or <a href="https://looksrare.org/collections/0xf79E73dE6934B767De0fAa120d059811A40276d9?queryID=86a1482ff2d8a3957dbb455af9e123b3" target="_blank">Looks Rare</a>
-                </div>
+                        <div className='mission-cover-container'>
+                            <CoverFlow
+                                imagesArr={imagesArr}
+                                width={coverflowWidth(width)}
+                                itemRatio='1:1'
+                                background='FFFFFFFF'
+                                id='mission-nft-coverflow'
+                            />
+                            <div>
+                                <center>
+                                Check out NFTs on <a href="https://opensea.io/collection/web3wallet-nft?search[sortAscending]=false&search[sortBy]=PRICE" target="_blank">Open Sea</a> or <a href="https://looksrare.org/collections/0xf79E73dE6934B767De0fAa120d059811A40276d9?queryID=86a1482ff2d8a3957dbb455af9e123b3" target="_blank">Looks Rare</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     )

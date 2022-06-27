@@ -1,7 +1,6 @@
 .mission {
     border: #0D7FB8 solid 2px;
     padding: 70px 80px 94px 80px;
-    width: 90%;
 }
 
 .mission-h1-wrapper {
@@ -17,7 +16,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    height: 32px;
+    min-height: 32px;
+    line-height: 32px;
+    padding-bottom: 8px;
     margin: 0 auto;
     margin-bottom: 4px;
 }
@@ -40,14 +41,11 @@
     text-align: left;
 }
 
-.mission-text-container {
-    /*background-color: red;*/
-}
-
 .mission-content-container {
+    display: flex;
+    flex-direction: column;
     margin-left: 80px;
     margin-top: 12px;
-    /*background-color: yellow;*/
 
 }
 
@@ -57,4 +55,50 @@
 
 a {
     color: #78D63A;
+}
+
+@media only screen and (max-width: 1260px) {
+    .mission-content{
+        flex-direction: column;
+    }
+
+    .mission-content-container {
+        width: unset;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 16px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mission-content-container img {
+        margin-right: 16px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .mission-content-container {
+        width: unset;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .mission-content-container img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 512px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mission {
+        padding: 70px 16px 94px 16px;
+    }
 }
