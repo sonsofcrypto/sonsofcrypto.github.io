@@ -46,6 +46,7 @@ const Footer = (props) => {
                             <li><a href="https://sonsofcrypto.com/web3wallet_promo_images.zip" target="_blank">Promo images</a></li>
                             <li><a href="https://sonsofcrypto.com/web3wallet_whitepaper.pdf" target="_blank">White paper</a></li>
                             <li><a href="https://sonsofcrypto.com/web3wallet_pitchdeck.pdf" target="_blank">Pitchdeck</a></li>
+                            <li><a href="https://sonsofcrypto.com/og/" target="_blank">OG site</a></li>
                         </ul>
                     </div>
                 </div>
