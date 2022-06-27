@@ -47,7 +47,7 @@
     }
 }
 
-.team-member img {
+.team-member img, .team-member a {
     margin: 0 auto;
 }
 
