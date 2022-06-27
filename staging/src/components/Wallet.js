@@ -6,7 +6,7 @@ import WalletSectionMeme from "./WalletSectionMeme";
 const Wallet = (props) => {
     const { progress } = props;
     return (
-        <div id='nav-wallet' className='section-container section-padded section-v-margin wallet'>
+        <div id='wallet' className='section-container section-padded section-v-margin wallet'>
             <div className='wallet-tvs'>
                 <img src='images/wallet/tv_dexes.svg'/>
                 <img src='images/wallet/tv_native_integrations.svg'/>

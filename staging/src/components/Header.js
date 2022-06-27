@@ -8,12 +8,12 @@ const Header = (props) => {
             <div className='nav-container section-container section-padded'>
                 <div className='soc-logo'><a href='#'>sons of crypto</a></div>
                 <ul>
-                    <li><a href='#'>Wallet</a></li>
-                    <li><a href='#'>Roadmap</a></li>
-                    <li><a href='#'>Mission & Tokenomics</a></li>
-                    <li><a href='#'>Products</a></li>
-                    <li><a href='#'>Whitepaper</a></li>
-                    <li><a href='#'>Social</a></li>
+                    <li><a href='#wallet'>Wallet</a></li>
+                    <li><a href='#roadmap'>Roadmap</a></li>
+                    <li><a href='#mission'>Mission & Tokenomics</a></li>
+                    <li><a href='#products'>Products</a></li>
+                    <li><a href='https://sonsofcrypto.com/web3wallet_whitepaper.pdf'>Whitepaper</a></li>
+                    <li><a href='#social'>Social</a></li>
                 </ul>
             </div>
             <div className='background'>

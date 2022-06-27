@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = (props) => {
     const { progress } = props;
     return (
-        <div className='margin-auto footer-wrapper'>
+        <div className='margin-auto footer-wrapper' id='social'>
             <div className='margin-auto margin-h-3 footer-spacer'>
                 <div className='footer-content-wrapper'>
                     <img src='images/header/logo.svg' id='footer-logo-img'/>

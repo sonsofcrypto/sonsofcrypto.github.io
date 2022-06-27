@@ -32,7 +32,7 @@ const Team = (props) => {
                     <img src='images/team-anondev.svg'/>
                     <ul>
                         <li>senior kotlin ninja mercenary</li>
-                        <li>two decades of experience</li>
+                        <li>two decades of engineering experience</li>
                     </ul>
                 </div>
                 {/*<div className='team-member'>*/}
