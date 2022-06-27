@@ -27,8 +27,11 @@ function useWindowDimensions() {
 }
 
 function coverflowWidth(width) {
+    if (width < 414) {
+        return 247
+    }
     if (width < 500) {
-        return 300
+        return 329
     }
     if (width < 1000) {
         return 500
@@ -93,6 +96,7 @@ const Mission = (props) => {
                             <CoverFlow
                                 imagesArr={imagesArr}
                                 width={coverflowWidth(width)}
+                                height={coverflowWidth(width/4.5)}
                                 itemRatio='1:1'
                                 background='FFFFFFFF'
                                 id='mission-nft-coverflow'

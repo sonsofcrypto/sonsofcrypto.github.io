@@ -50,4 +50,27 @@
     .wallet-left-text {
         text-align: left;
     }
+
+    .wallet-tvs {
+        row-count: 2;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .wallet-tvs {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+        max-height: unset;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wallet-tvs img {
+        width: 47.5%;
+        margin: 4px 4px 4px 4px;
+    }
 }
