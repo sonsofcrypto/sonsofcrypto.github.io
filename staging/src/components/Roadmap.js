@@ -4,7 +4,7 @@ import './Roadmap.css';
 const Roadmap = (props) => {
     const { progress } = props;
     return (
-        <div className='section-container section-v-margin roadmap'>
+        <div className='margin-auto margin-h-1 margin-v-1 roadmap'>
 
             <div className='line-horizontal-container'>
                 <div className='line-horizontal-left  roadmap-line-top'></div>

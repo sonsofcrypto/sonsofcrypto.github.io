@@ -320,8 +320,13 @@ code {
 
 .margin-h-2 {
   max-width: 1363px;
-  margin-right: 42px;
-  margin-left: 42px;
+}
+
+@media only screen and (max-width: 1447px) {
+  .margin-h-2 {
+    margin-right: 42px;
+    margin-left: 42px;
+  }
 }
 
 .margin-h-2-padded {
@@ -331,8 +336,13 @@ code {
 
 .margin-h-3 {
   max-width: 1279px;
-  margin-right: 84px;
-  margin-left: 84px;
+}
+
+@media only screen and (max-width: 1363px) {
+  .margin-h-3 {
+    margin-right: 84px;
+    margin-left: 84px;
+  }
 }
 
 .margin-v-1 {
@@ -341,7 +351,7 @@ code {
 }
 
 @media only screen and (max-width: 700px) {
-  .margin-h-2 {
+  .margin-h-2,.margin-h-3 {
     margin-right: 16px;
     margin-left: 16px;
   }
@@ -351,10 +361,6 @@ code {
     padding-right: 16px;
   }
 
-  .margin-h-3 {
-    margin-right: 16px;
-    margin-left: 16px;
-  }
 }
 
 h1 {
