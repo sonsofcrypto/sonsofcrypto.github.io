@@ -41,3 +41,13 @@
     text-align: left;
     flex: 1;
 }
+
+@media only screen and (max-width: 800px) {
+    .wallet-text-container {
+        flex-direction: column;
+    }
+
+    .wallet-left-text {
+        text-align: left;
+    }
+}

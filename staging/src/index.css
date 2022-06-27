@@ -361,6 +361,10 @@ code {
     padding-right: 16px;
   }
 
+  .margin-v-1 {
+    margin-top: 104px;
+    margin-bottom: 104px;
+  }
 }
 
 h1 {

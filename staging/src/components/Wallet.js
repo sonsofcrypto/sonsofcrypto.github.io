@@ -6,7 +6,7 @@ import WalletSectionMeme from "./WalletSectionMeme";
 const Wallet = (props) => {
     const { progress } = props;
     return (
-        <div id='wallet' className='section-container section-padded section-v-margin wallet'>
+        <div id='wallet' className='margin-auto margin-h-2 margin-v-1 wallet'>
             <div className='wallet-tvs'>
                 <img src='images/wallet/tv_dexes.svg'/>
                 <img src='images/wallet/tv_native_integrations.svg'/>
@@ -46,11 +46,10 @@ const Wallet = (props) => {
                     </p>
                     <p>
                         Web3 wallet aims to address former by supporting native in app smart
-                        contract interactions. And latter by providing mobile extension
+                        contract interactions. Latter by providing mobile extension
                         that inject web3 wallet provider to front ends and approves
                         signing of transactions via mobile native browser extension.
-                        This would bring user experience on par with desktop browsers
-                        and browser extension wallets.
+                        Bringing user experience on par with desktop browser extension wallets.
                     </p>
                 </div>
             </div>
