@@ -17,15 +17,15 @@ const Team = (props) => {
                 <div className='team-member'>
                     <img src='images/team-web3dgn.svg'/>
                     <ul>
-                        <li>worked for biggest companies in crypto</li>
-                        <li>nearly a decade in crypto</li>
+                        <li>senior dev with two decades of experience</li>
+                        <li>half decade in crypto, decade in mobile</li>
                     </ul>
                 </div>
                 <div className='team-member'>
                     <img src='images/team-web3dsn.svg'/>
                     <ul>
-                        <li>worked for biggest companies in crypto</li>
-                        <li>nearly a decade in crypto</li>
+                        <li>serion ex-Apple designer</li>
+                        <li>experienced in designing DeFi products</li>
                     </ul>
                 </div>
                 <div className='team-member'>
