@@ -1,0 +1,67 @@
+.section h1 {
+    z-index: 20;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    max-width: 90%;
+}
+
+.quotes {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-image {
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+    display: block;
+    width: 100%;
+    max-width: 620px;
+    max-height: 620px;
+}
+
+.section-body {
+    position: relative;
+    width: 58%;
+    z-index: 20;
+}
+
+.roadmap-card-meme {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1045px) {
+    .section-image { right: -75px; }
+}
+
+@media only screen and (max-width: 950px) {
+    .section-image { max-width: 580px; max-height: 580px; }
+}
+
+@media only screen and (max-width: 900px) {
+    .section-body { width: 100%; }
+    .section-image {
+        position: relative;
+        left: unset; right: unset; top: unset; bottom: unset;
+        margin: 0 auto;
+        margin-top: -9vw;
+        margin-bottom: 0vw;
+        max-width: 620px;
+        max-height: 620px;
+    }
+    .section {
+        margin-top: 92px;
+        margin-bottom: 92px;
+    }
+    .section:first-of-type { margin-top: 184px; }
+    .section:last-of-type { margin-bottom: 184px; }
+    .section h1 { max-width: 100%; }
+}

@@ -1,0 +1,126 @@
+.wallet-section {
+    background-color: transparent;
+    overflow: visible;
+    position: relative;
+}
+
+.wallet-section-img {
+    position: absolute;
+    left: -11%;
+    top: -3%;
+    z-index: 2;
+}
+
+.wallet-section .quotes {
+    position: absolute;
+    right: 24px;
+    top: -4%;
+    z-index: 20;
+}
+
+.wallet-section .quotes li {
+    text-align: right;
+}
+
+.wallet-section-body {
+    position: relative;
+    padding-top: 55%;
+    max-width: 55%;
+    z-index: 20;
+}
+
+.wallet-section-body h2 {
+    display: inline;
+}
+
+.wallet-section-body .color-palette-7 {
+    color: #FF38AB;
+}
+
+.wallet-section-meme {
+    position: absolute;
+    right: -5%;
+    bottom: -3%;
+    width: 100%;
+    max-width: 620px;
+    max-height: 620px;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 1150px) {
+    .wallet-section .quotes h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .wallet-section .quotes {
+        top: 0;
+    }
+
+    .wallet-section-img {
+        max-width: 130%;
+        left: -10%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .wallet-section-meme { right: -9%; }
+}
+
+@media only screen and (max-width: 950px) {
+    .wallet-section-meme { max-width: 580px; max-height: 580px; }
+}
+
+@media only screen and (max-width: 900px) {
+    .wallet-section .quotes {
+        position: relative;
+        margin: 0;
+        right: unset;
+        top: unset;
+        margin-top: 45px;
+    }
+
+    .wallet-section .quotes h2 {
+        text-align: left;
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .wallet-section-img {
+        max-width: 130%;
+        left: -10%;
+        top: 18%;
+        z-index: 25;
+    }
+
+    .wallet-section-body {
+        max-width: unset;
+        padding-top: 70%;
+        z-index: 15;
+    }
+
+    .wallet-section-meme {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        left: 0; right: 0;
+        margin-top: -6vw;
+        margin-bottom: -15vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wallet-section .quotes h2 { font-size: 28px; line-height: 40px; }
+    .wallet-section-img {
+        max-width: 132%;
+        top: 15.5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wallet-section-img { top: 17.5%; }
+}
+
+@media only screen and (max-width: 380px) {
+    .wallet-section-img { top: 19.5%; }
+}

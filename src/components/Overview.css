@@ -1,0 +1,41 @@
+.overview {
+    background-color: transparent;
+    margin-top: 72px;
+}
+
+.overview-normal, .overview-stack {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+.overview h1 {
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.overview-stack {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .overview-stack { display: flex; }
+    .overview-normal { display: none; }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .overview-stack { display: flex; }
+    .overview-normal { display: none; }
+    .overview-stack {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .overview h1 {
+        text-shadow: 5px 5px #DD0582;
+        font-size: 64px;
+        line-height: 76px;
+    }
+}

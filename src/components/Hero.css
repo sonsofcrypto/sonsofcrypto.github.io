@@ -1,0 +1,178 @@
+.hero-container {
+    position: relative;
+    background-color: transparent;
+    height: 960px;
+    overflow: visible;
+    background-image: url('/public/images/hero-bg.png');
+    background-image: -webkit-image-set(
+            url('/public/images/hero-bg.png') 1x,
+            url('/public/images/hero-bg@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images/hero-bg.png') 1x,
+            url('/public/images/hero-bg@2x.png') 2x);
+}
+
+.hero {
+    position: relative;
+    overflow: visible;
+    background-color: transparent;
+}
+
+.hero-img-logo {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -7px;
+    display: block;
+    background-color: transparent;
+    max-width: 100%;
+    z-index: 20;
+}
+
+.hero-img-lines {
+    margin: auto;
+    background-color: transparent;
+    height: 960px;
+    background-image: url('/public/images/hero-lines.png');
+    background-image: -webkit-image-set(
+            url('/public/images/hero-lines.png') 1x,
+            url('/public/images/hero-lines@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images/hero-lines.png') 1x,
+            url('/public/images/hero-lines@2x.png') 2x);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    z-index: 10;
+
+}
+
+.hero-img-mountains, .hero-img-stars {
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    z-index: 15;
+}
+
+.hero-img-stars {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 474px;
+    background-image: url('/public/images/hero-stars.png');
+    background-image: -webkit-image-set(
+            url('/public/images/hero-stars.png') 1x,
+            url('/public/images/hero-stars@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images/hero-stars.png') 1x,
+            url('/public/images/hero-stars@2x.png') 2x);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.hero-img-mountains {
+    top: 474px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    background-image: url('/public/images/hero-mountains.png');
+    background-image: -webkit-image-set(
+            url('/public/images/hero-mountains.png') 1x,
+            url('/public/images/hero-mountains@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images/hero-mountains.png') 1x,
+            url('/public/images/hero-mountains@2x.png') 2x);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.hero-img-palms {
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 86px;
+    z-index: 25;
+}
+
+.hero-img-palms-left {
+    left: -121px;
+}
+
+.hero-img-palms-right {
+    right: -126px;
+}
+
+.hero-meme {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    overflow: visible;
+    z-index: 50;
+    width: 18vw;
+    max-width: 147px;
+    bottom: -12%;
+    left: 10%;
+}
+
+.hero-meme-pepe {
+    position: absolute;
+    right: 18%;
+    bottom: 30%;
+    z-index: 17;
+    width: 8%;
+}
+
+.hero-meme-wojak-bliss {
+    position: absolute;
+    left: 18%;
+    bottom: 30%;
+    z-index: 17;
+    width: 8%;
+}
+
+@media only screen and (max-width: 900px) {
+    .hero-container {
+        height: calc(100vw * 1.0);
+        overflow: clip;
+    }
+    .hero-img-palms {
+        top: calc(100vw * 0.071666);
+        max-height: 100%;
+    }
+
+    .hero-img-palms-left {
+        left: calc(100vw * -0.25);
+    }
+
+    .hero-img-palms-right {
+        right: calc(100vw * -0.25);
+    }
+
+    .hero-container {
+        background-size: contain;
+        overflow: visible;
+    }
+
+    .hero-img-mountains {
+        top: calc(100vw * 0.515);
+        height: calc(100vw * 0.0625);
+        background-size: cover;
+    }
+
+    .hero-img-stars {
+        height: calc(100vw * 0.45);
+    }
+
+    .hero-img-lines {
+        height: calc(100vw * 1.0);
+    }
+
+    .hero-meme {
+        margin: 0 auto;
+        width: 25vw;
+        bottom: -10vw;
+        left: -1vw;
+    }
+}

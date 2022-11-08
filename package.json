@@ -1,0 +1,37 @@
+{
+  "name": "sonsofcrypo",
+  "version": "3.0.0",
+  "private": true,
+  "homepage": "https://sonsofcrypto.com/",
+  "dependencies": {
+    "gh-pages": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-scripts": "*"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "NODE_DEBUG=gh-pages gh-pages -d build -u \"web3d3v <shadowyweb3supercoder@protonmail.com>\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

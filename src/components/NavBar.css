@@ -1,0 +1,94 @@
+svg {
+    overflow: visible !important;
+}
+
+.header {
+    width: 100%; /* 1919px;*/
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #FF38AB;
+}
+
+.nav-container {
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    background-color: #FF38AB;
+}
+
+.soc-logo a {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: line-through 3px #FF38AB;
+}
+
+.soc-logo a:hover {
+    border-bottom: solid 2px white;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-container ul li {
+    display: inline-block;
+}
+
+.nav-container ul li button {
+    font-family: 'Roboto Mono';
+    color: white;
+    text-decoration: none;
+    padding-left: 22px;
+    background-color: transparent;
+    border: none;
+}
+
+.nav-container ul li button:hover {
+    text-decoration: underline;
+}
+
+.dropdown-wrapper {
+    display: none;
+}
+
+#main-nav-ul {
+    display: block;
+}
+
+@media only screen and (max-width: 1147px) {
+    .nav-container ul li button { padding-left: 12px; }
+}
+
+@media only screen and (max-width: 943px) {
+    #main-nav-ul { flex-grow: 1000; width: 100%; }
+    .soc-logo {
+        display: inline;
+        flex-shrink: 1000;
+        min-width: 104px;
+    }
+}
+
+@media only screen and (max-width: 826px) {
+    #main-nav-ul { flex-grow: unset; }
+    .soc-logo {
+        flex-shrink: unset;
+        display: block;
+        min-width: 220px;
+    }
+}
+
+@media only screen and (max-width: 673px) {
+    .dropdown-wrapper { display: block; }
+    #main-nav-ul { display: none; }
+}

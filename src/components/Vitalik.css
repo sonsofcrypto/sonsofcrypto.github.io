@@ -1,0 +1,51 @@
+.vitalik-container {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.vitalik-img, .italik-img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.italik-img {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.vitalik-img {
+    animation: animateVitalik 9s linear infinite;
+}
+
+.italik-img {
+    animation: animateItalik 9s linear infinite;
+}
+
+@keyframes animateVitalik {
+    0% { opacity: 40%; }
+    1% { opacity: 100%; }
+    2% { opacity: 50%; }
+    3% { opacity: 100%; }
+    4% { opacity: 40%; }
+    5% { opacity: 100%; }
+    57% {opacity: 100%; }
+    59% { opacity: 40%; }
+    100% { opacity: 40%; }
+}
+
+@keyframes animateItalik {
+    0% { opacity: 40%; }
+    50% { opacity: 40%; }
+    51% { opacity: 100%; }
+    52% { opacity: 40%; }
+    53% { opacity: 100%; }
+    54% { opacity: 40%; }
+    55% { opacity: 100%; }
+    89% {opacity: 100%; }
+    90% {opacity: 40%; }
+    91% {opacity: 100%; }
+    92% {opacity: 40%; }
+    100% { opacity: 40%; }
+}
