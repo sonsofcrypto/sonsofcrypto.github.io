@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.3224fdf5.css",
-    "main.js": "/static/js/main.21dd4f7e.js",
-    "static/media/footer-bg.jpg": "/static/media/footer-bg.36ccbca3522c2e3e22d6.jpg",
-    "static/media/sun_palms.svg": "/static/media/sun_palms.54f6a7fdad29125a1417.svg",
+    "main.css": "/static/css/main.0480cd86.css",
+    "main.js": "/static/js/main.3863e711.js",
+    "static/media/hero-lines@2x.png": "/static/media/hero-lines@2x.682f311d6e6df5f7adee.png",
+    "static/media/roadmap-lines@2x.png": "/static/media/roadmap-lines@2x.f80dbf4cea855b85757d.png",
+    "static/media/hero-lines.png": "/static/media/hero-lines.32c0164b9425bb0130fd.png",
+    "static/media/roadmap-lines.png": "/static/media/roadmap-lines.9465e3adb7a29c03bde8.png",
+    "static/media/Shrikhand-Regular.ttf": "/static/media/Shrikhand-Regular.5ff5e889191a6c359fa4.ttf",
+    "static/media/Bungee-Regular.ttf": "/static/media/Bungee-Regular.3d95fa68283102c29cd9.ttf",
     "static/media/RobotoMono-BoldItalic.ttf": "/static/media/RobotoMono-BoldItalic.3dfe67d830ea0b72eddc.ttf",
     "static/media/RobotoMono-MediumItalic.ttf": "/static/media/RobotoMono-MediumItalic.31ec117c2c2363e8b37f.ttf",
     "static/media/RobotoMono-SemiBoldItalic.ttf": "/static/media/RobotoMono-SemiBoldItalic.5f71cfa4d6357c7484aa.ttf",
@@ -18,28 +22,16 @@
     "static/media/RobotoMono-Bold.ttf": "/static/media/RobotoMono-Bold.1d29748c6ba7e786c050.ttf",
     "static/media/RobotoMono-Regular.ttf": "/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
     "static/media/RobotoMono-Medium.ttf": "/static/media/RobotoMono-Medium.e04fa2d8ef59775dc652.ttf",
-    "static/media/AA_Naoko-06-Extrabold.otf": "/static/media/AA_Naoko-06-Extrabold.f13a895caa88f0a9893e.otf",
-    "static/media/AA_Naoko-05-Bold.otf": "/static/media/AA_Naoko-05-Bold.d2a731f91275d7caaff8.otf",
-    "static/media/AA_Naoko-04-Medium-italic.otf": "/static/media/AA_Naoko-04-Medium-italic.66c12b1bce959a42a271.otf",
-    "static/media/AA_Naoko-05-Bold-italic.otf": "/static/media/AA_Naoko-05-Bold-italic.b0d272e6f41a6a9495e0.otf",
-    "static/media/AA_Naoko-04-Medium.otf": "/static/media/AA_Naoko-04-Medium.289124c7091eca8877e2.otf",
-    "static/media/AA_Naoko-06-Extrabold-italic.otf": "/static/media/AA_Naoko-06-Extrabold-italic.94e8c50c426bb5ad0a28.otf",
-    "static/media/AA_Naoko-03-Regular-italic.otf": "/static/media/AA_Naoko-03-Regular-italic.f4871e09a6b01c2a2dfa.otf",
-    "static/media/AA_Naoko-02-Semilight-italic.otf": "/static/media/AA_Naoko-02-Semilight-italic.61fc487293cefa7a43cb.otf",
-    "static/media/AA_Naoko-03-Regular.otf": "/static/media/AA_Naoko-03-Regular.6c02c52d2b28606a339e.otf",
-    "static/media/AA_Naoko-02-Semilight.otf": "/static/media/AA_Naoko-02-Semilight.c8030ca8dddb872e114c.otf",
-    "static/media/AA_Naoko-07-Black.otf": "/static/media/AA_Naoko-07-Black.ec8c50138391566f1f6b.otf",
-    "static/media/AA_Naoko-07-Black-italic.otf": "/static/media/AA_Naoko-07-Black-italic.10a205bb381edcebdefd.otf",
-    "static/media/AA_Naoko-01-Light-italic.otf": "/static/media/AA_Naoko-01-Light-italic.24f2264bc8d4429c5c82.otf",
-    "static/media/AA_Naoko-01-Light.otf": "/static/media/AA_Naoko-01-Light.0a2215398f5c311c0509.otf",
-    "static/media/starts.svg": "/static/media/starts.7cebf53174506a311b59.svg",
+    "static/media/hero-bg@2x.png": "/static/media/hero-bg@2x.054bfcbaaec28f9e063b.png",
+    "static/media/hero-stars@2x.png": "/static/media/hero-stars@2x.e93487dde3f1aba928c5.png",
+    "static/media/hero-bg.png": "/static/media/hero-bg.b6fe80485c4878626487.png",
+    "static/media/hero-mountains@2x.png": "/static/media/hero-mountains@2x.a35aded1f5355f8cc896.png",
     "index.html": "/index.html",
-    "static/media/bg01.svg": "/static/media/bg01.80b4db62b042b900c95d.svg",
-    "main.3224fdf5.css.map": "/static/css/main.3224fdf5.css.map",
-    "main.21dd4f7e.js.map": "/static/js/main.21dd4f7e.js.map"
+    "main.0480cd86.css.map": "/static/css/main.0480cd86.css.map",
+    "main.3863e711.js.map": "/static/js/main.3863e711.js.map"
   },
   "entrypoints": [
-    "static/css/main.3224fdf5.css",
-    "static/js/main.21dd4f7e.js"
+    "static/css/main.0480cd86.css",
+    "static/js/main.3863e711.js"
   ]
 }
