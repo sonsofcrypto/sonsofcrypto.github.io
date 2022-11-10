@@ -9,23 +9,24 @@ const Overview = (props) => {
                 <div className='overview-card'>
                     <h1><a href='#wallet'>wallet</a></h1>
                     <ul>
-                        <li>By degens for degens</li>
                         <li>Self custodial</li>
+                        <li>Connects directly crypto networks (not via <strike>web2</strike>)</li>
+                        <li>Interact directly with large suite of smart contracts</li>
+                        <li>Native UI for best of DeFi/web3</li>
                         <li>Multi chain, L1s, L2s</li>
-                        <li>Connects directly crypto networks (not via web2)</li>
-                        <li>Direct in app support for large suite of smart contracts</li>
                         <li>No tracking, no backbend, max privacy</li>
                         <li>Wallet connect</li>
                         <li>Hardware wallet support</li>
                         <li>Linux of crypto wallets</li>
                         <li>Uncompromising on cypherpunks values</li>
+                        <li>By degens for degens</li>
                     </ul>
                 </div>
                 <div className='overview-card'>
                     <h1><a href='#web3lib'>lib</a></h1>
                     <ul>
                         <li>Multi chain support L1s & L2s</li>
-                        <li>ERCs, SLPs, NFTs</li>
+                        <li>ERC20s, NFTs, SLPs</li>
                         <li>Cross platform. iOS, Android, Web</li>
                         <li>Fully Open Source (MIT license)</li>
                         <li>Focus on building your web3 app, not boiler plate code</li>
@@ -44,16 +45,17 @@ const Overview = (props) => {
                 <div className='overview-card'>
                     <h1><a href='#wallet'>wallet</a></h1>
                     <ul>
-                        <li>By degens for degens</li>
                         <li>Self custodial</li>
+                        <li>Connects directly crypto networks (not via <strike>web2</strike>)</li>
+                        <li>Interact directly with large suite of smart contracts</li>
+                        <li>Native UI for best of DeFi/web3</li>
                         <li>Multi chain, L1s, L2s</li>
-                        <li>Connects directly crypto networks (not via web2)</li>
-                        <li>Direct in app support for large suite of smart contracts</li>
                         <li>No tracking, no backbend, max privacy</li>
                         <li>Wallet connect</li>
                         <li>Hardware wallet support</li>
                         <li>Linux of crypto wallets</li>
                         <li>Uncompromising on cypherpunks values</li>
+                        <li>By degens for degens</li>
                     </ul>
                 </div>
                 <div className='overview-card overview-card-stack' >
@@ -61,7 +63,7 @@ const Overview = (props) => {
                         <h1><a href='#web3lib'>lib</a></h1>
                         <ul>
                             <li>Multi chain support L1s & L2s</li>
-                            <li>ERCs, SLPs, NFTs</li>
+                            <li>ERC20s, NFTs, SLPs</li>
                             <li>Cross platform. iOS, Android, Web</li>
                             <li>Fully Open Source (MIT license)</li>
                             <li>Focus on building your web3 app, not boiler plate code</li>
