@@ -181,6 +181,16 @@ button {
     overflow: visible;
 }
 
+a {
+    color: #FF38AB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF38AB;
+    text-decoration: underline;
+}
+
 h1 {
     font-family: "Bungee";
     font-style: normal;
@@ -213,7 +223,8 @@ h1 a:hover {
     padding-left: 2px;
     padding-top: 2px;
     text-shadow: 4px 4px #DD0582;
-    /*text-decoration: underline;*/
+    text-decoration: none;
+    color: #F0C21D;
 }
 
 h3 {

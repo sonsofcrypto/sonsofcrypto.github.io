@@ -12,8 +12,8 @@ export const sections = [
         imgName: "meme-large-bull-pepe",
         qoutesPalleteIds: [4, 5, 6, 7],
         body: `
-            <p>Mission is to accelerate development of web3. To help assure it is built without compromising on crypto / cypherpunks values and principles. Decentralization, censorship resistance, self custody, privacy. Not built and funded by the same people who built censorious, privacy destroying web2. We’ll achieve this by building open source SDK for web3 apps, a state of the art web3 wallet, and finally dapps using said SDK.</p> 
-            <p>w3t utility token will be used for discounts on fees initially. Later for un-announced Defi product. At phase 3 it will be transformed into governance token. Total supply 1 billion. Initial seed sale of 10% of total supply at $0.003. There is nor shall there ever be and VC presale / sale at discounted price. By frogs for frogs. (More info here).</p>
+            <p>Mission is to accelerate development of web3. To help assure it is built without compromising on crypto / cypherpunks values and principles. Decentralization, censorship resistance, self custody, privacy. Not built and funded by the same people who built censorious, privacy destroying web2. We’ll achieve this by building open source SDK for web3 apps, a state of the art web3 wallet, and finally dapps using said SDK.</p>
+            <p><a href="https://opensea.io/collection/web3wallet-nft" target="_blank">web3wallet NFT</a> holders get wallet fees free access forever. As well as airdrop of W3T governance token. W3T will also be used for un-announced Defi product. Total supply 1 billion. There is nor shall there ever be and VC presale / sale at discounted price. By frogs for frogs. (<a href="https://sonsofcrypto.com/web3wallet_whitepaper.pdf" target="_blank">More info in white paper</a>).</p>
         `
     },
     {
@@ -31,7 +31,7 @@ export const sections = [
         qoutesPalleteIds: [0, 1, 2, 3, 4, 5],
         body: `
             <p>There are a relatively high barriers to entry when it come to building web3 apps.</p> 
-            <p>All of the above have quickly become table stakes, while remaining considerable engineering undertaking. Aim is to provide unified library for accessing large variety of L1s & L2s. With interfaces for many popular programing languages. Eventually to become canonical library for all web3 needs.</p> 
+            <p>Table stakes features remain considerable engineering undertaking. Aim is to provide unified library for accessing large variety of L1s & L2s. With interfaces for many popular programing languages. Eventually to become canonical library for all web3 needs.</p> 
             <p>Aside from core web3 library, goal is to provide UI framework for iOS, Android, Web and Desktop. Composed of extensible, customizable UI components. As well as entire flows that manage seed handling, transactions display and alike.</p>
         `
     },
