@@ -19,13 +19,13 @@ const RoadmapSection = (props) => {
                         />
                         <h2>Phase 1</h2>
                         <ul>
-                            <li>MVP wallet for iOS, Android and Browser extension</li>
-                            <li>ETH & SOL support</li>
-                            <li>Wallet connect support</li>
-                            <li>Hardware wallets support</li>
-                            <li>Arbitrum, Optimism support</li>
-                            <li>Web3 SDK</li>
-                            <li>Tradfi onramps</li>
+                            <li>MVP wallet for iOS</li>
+                            <li>ETH & testnets support</li>
+                            <li>ERC20s & NFTs support</li>
+                            <li>web3lib v1.0</li>
+                            <li>Geth LES node</li>
+                            <li>Uniswap swaps integration</li>
+                            <li>MVP governence integration</li>
                         </ul>
                         <img className='roadmap-card-meme'
                              srcSet={
@@ -62,6 +62,9 @@ const RoadmapSection = (props) => {
                         />
                         <h2>Phase 3</h2>
                         <ul>
+                            <li>Full DAO launch</li>
+                            <li>Moar integrations</li>
+                            <li>Moar L1s & L2s </li>
                             <li>Re-imagining most important web2 services for web3.</li>
                             <li>web3 messenger</li>
                             <li>web3 social media</li>
