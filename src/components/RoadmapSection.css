@@ -83,6 +83,37 @@
     margin-bottom: 5%;
 }
 
+.roadmap-section a {
+    position: relative;
+    text-decoration: none;
+    z-index: 20;
+}
+
+.roadmap-section li a {
+    color: white;
+}
+
+.roadmap-section li a:hover {
+    text-decoration: underline;
+}
+
+.road-map-wips {
+    text-align: right;
+    float: right;
+    max-width: 50%;
+    display: block;
+    position: relative;
+}
+
+.roadmap-section a h3 {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1134px) {
+    .road-map-wips { max-width: 70%; }
+}
+
 @media only screen and (max-width: 900px) {
     .roadmap-normal { flex-direction: column; row-gap: 64px; }
     .roadmap-card:first-of-type { z-index: 15; margin: unset; }
@@ -97,6 +128,13 @@
         position: relative;
         margin: 0 auto;
         max-width: 50%;
+    }
+
+    .road-map-wips {
+        float: unset;
+        max-width: 100%;
+        text-align: left;
+        margin-top: 24px;
     }
 }
 
