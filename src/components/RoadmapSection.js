@@ -25,7 +25,7 @@ const RoadmapSection = (props) => {
                             <li>web3lib v1.0</li>
                             <li>Geth LES node</li>
                             <li>Uniswap swaps integration</li>
-                            <li>MVP governence integration</li>
+                            <li>MVP governance integration</li>
                         </ul>
                         <img className='roadmap-card-meme'
                              srcSet={
@@ -46,10 +46,10 @@ const RoadmapSection = (props) => {
                         <h2>Phase 2</h2>
                         <ul>
                             <li>Android app</li>
-                            <li>Browser extensions</li>
-                            <li>Large directory of popular web3 dapps. Interacting with smart contracts natively in apps. Via decentralized chain networks directly. Not via centralized <strike>web2</strike> APIs.</li>
-                            <li>Dapps browser</li>
-                            <li>Moar L1s & L2s support</li>
+                            <li>Browser Extension</li>
+                            <li>A large directory of popular web3 Dapps. Interacting with smart contracts natively in-app via decentralized chain networks directly, not via centralized <strike>web2</strike> APIs.</li>
+                            <li>Dapp browser</li>
+                            <li>Mooooar L1s & L2s</li>
                             <li>Wallet connect support</li>
                             <li>Hardware wallets support</li>
                             <li>Tradfi onramps</li>
@@ -70,7 +70,7 @@ const RoadmapSection = (props) => {
                         />
                         <h2>Phase 3</h2>
                         <ul>
-                            <li>Re-imagining most important web2 services for web3.</li>
+                            <li>Re-imagining the most important web2 services for web3.</li>
                             <li>web3 messenger</li>
                             <li>web3 social media</li>
                             <li>web3 everything!</li>

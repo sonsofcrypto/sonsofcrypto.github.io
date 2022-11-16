@@ -10,26 +10,26 @@ const Overview = (props) => {
                     <h1><a href='#wallet'>wallet</a></h1>
                     <ul>
                         <li>Self custodial</li>
-                        <li>Connects directly crypto networks (not via <strike>web2</strike>)</li>
-                        <li>Interact directly with large suite of smart contracts</li>
-                        <li>Native UI for best of DeFi/web3</li>
-                        <li>Multi chain, L1s, L2s</li>
+                        <li>Connects directly to crypto networks (not via <strike>web2</strike>)</li>
+                        <li>Interact directly with a large suite of smart contracts</li>
+                        <li>Native UI for best DeFi/web3 products</li>
+                        <li>Multichain, L1s, L2s</li>
                         <li>No tracking, no backbend, max privacy</li>
                         <li>Wallet connect</li>
                         <li>Hardware wallet support</li>
                         <li>Linux of crypto wallets</li>
-                        <li>Uncompromising on cypherpunks values</li>
-                        <li>By degens for degens</li>
+                        <li>Uncompromising on Cypherpunks values</li>
+                        <li>By Degens for Degens</li>
                     </ul>
                 </div>
                 <div className='overview-card'>
                     <h1><a href='#web3lib'>lib</a></h1>
                     <ul>
-                        <li>Multi chain support L1s & L2s</li>
+                        <li>Multichain support L1s & L2s</li>
                         <li>ERC20s, NFTs, SLPs</li>
                         <li>Cross platform. iOS, Android, Web</li>
                         <li>Fully Open Source (MIT license)</li>
-                        <li>Focus on building your web3 app, not boiler plate code</li>
+                        <li>Focus on building your web3 app, not boilerplate code</li>
                     </ul>
                 </div>
                 <div className='overview-card'>
@@ -46,27 +46,27 @@ const Overview = (props) => {
                     <h1><a href='#wallet'>wallet</a></h1>
                     <ul>
                         <li>Self custodial</li>
-                        <li>Connects directly crypto networks (not via <strike>web2</strike>)</li>
-                        <li>Interact directly with large suite of smart contracts</li>
-                        <li>Native UI for best of DeFi/web3</li>
-                        <li>Multi chain, L1s, L2s</li>
+                        <li>Connects directly to crypto networks (not via <strike>web2</strike>)</li>
+                        <li>Interact directly with a large suite of smart contracts</li>
+                        <li>Native UI for best DeFi/web3 products</li>
+                        <li>Multichain, L1s, L2s</li>
                         <li>No tracking, no backbend, max privacy</li>
                         <li>Wallet connect</li>
                         <li>Hardware wallet support</li>
                         <li>Linux of crypto wallets</li>
-                        <li>Uncompromising on cypherpunks values</li>
-                        <li>By degens for degens</li>
+                        <li>Uncompromising on Cypherpunks values</li>
+                        <li>By Degens for Degens</li>
                     </ul>
                 </div>
                 <div className='overview-card overview-card-stack' >
                     <div className='overview-card'>
                         <h1><a href='#web3lib'>lib</a></h1>
                         <ul>
-                            <li>Multi chain support L1s & L2s</li>
+                            <li>Multichain support for L1s & L2s</li>
                             <li>ERC20s, NFTs, SLPs</li>
                             <li>Cross platform. iOS, Android, Web</li>
                             <li>Fully Open Source (MIT license)</li>
-                            <li>Focus on building your web3 app, not boiler plate code</li>
+                            <li>Focus on building your web3 app, not boilerplate code</li>
                         </ul>
                     </div>
                     <div className='overview-card'>
