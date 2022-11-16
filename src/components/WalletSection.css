@@ -40,7 +40,7 @@
 .wallet-section-meme {
     position: absolute;
     right: -5%;
-    bottom: -3%;
+    bottom: 4%;
     width: 100%;
     max-width: 620px;
     max-height: 620px;
@@ -64,11 +64,18 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .wallet-section-meme { right: -9%; }
+    .wallet-section-meme {
+        right: -9%;
+        bottom: 9%;
+    }
 }
 
 @media only screen and (max-width: 950px) {
-    .wallet-section-meme { max-width: 580px; max-height: 580px; }
+    .wallet-section-meme {
+        max-width: 580px;
+        max-height: 580px;
+        bottom: 14%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -106,6 +113,7 @@
         left: 0; right: 0;
         margin-top: -6vw;
         margin-bottom: -15vw;
+        bottom: -3%;
     }
 }
 
