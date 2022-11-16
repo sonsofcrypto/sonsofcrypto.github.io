@@ -11,6 +11,7 @@ import WalletSection from "../components/WalletSection";
 import VideoSection from "../components/VideoSection";
 import RoadmapSection from "../components/RoadmapSection";
 import Team from "../components/Team";
+import CTASection from "../components/CTASection";
 
 function App() {
     const [sections, setSections] = useState([]);
@@ -25,6 +26,7 @@ function App() {
         <ErrorBoundary>
             <NavBar/>
             <Hero/>
+            <CTASection/>
             <Overview/>
             <WalletSection/>
             <VideoSection/>

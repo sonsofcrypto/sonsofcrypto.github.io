@@ -113,14 +113,18 @@
     .wallet-section .quotes h2 { font-size: 28px; line-height: 40px; }
     .wallet-section-img {
         max-width: 132%;
-        top: 15.5%;
+        top: 12.5%;
     }
 }
 
+@media only screen and (max-width: 450px) {
+    .wallet-section-img { top: 14%; }
+}
+
 @media only screen and (max-width: 400px) {
-    .wallet-section-img { top: 17.5%; }
+    .wallet-section-img { top: 15%; }
 }
 
 @media only screen and (max-width: 380px) {
-    .wallet-section-img { top: 19.5%; }
+    .wallet-section-img { top: 17.25%; }
 }

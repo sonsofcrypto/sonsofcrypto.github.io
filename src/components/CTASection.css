@@ -1,0 +1,60 @@
+.cta-section {
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.cta-section-buttons {
+    display: flex;
+    background-color: transparent;
+    justify-content: start;
+    gap: 2em;
+}
+
+.cta-section-item {
+    color: white;
+    background-color: transparent;
+    box-shadow: 0.5em 0.5em white;
+    border: solid 1px white;
+    padding: 0em 1em;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.cta-section-item-container {
+    margin: 0.25em;
+}
+
+.cta-section-item-container:hover {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+}
+
+.cta-section-item:hover {
+    box-shadow: 0.25em 0.25em white;
+}
+
+.cta-section a h3 {
+    color: white;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.cta-section a:hover h3 {
+    text-shadow: unset;
+}
+
+.cta-section a:hover {
+    text-decoration: none;
+}
+
+#cta-section-headline {
+    display: block;
+    /*max-width: 50%;*/
+}
+
+@media only screen and (max-width: 900px) {
+    .cta-section-buttons { flex-direction: column; }
+}
