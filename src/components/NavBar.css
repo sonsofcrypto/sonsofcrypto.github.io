@@ -67,28 +67,31 @@ nav {
 }
 
 @media only screen and (max-width: 1147px) {
-    .nav-container ul li button { padding-left: 12px; }
+    .nav-container ul li button { padding-left: 6px; }
 }
 
-@media only screen and (max-width: 943px) {
+@media only screen and (max-width: 848px) {
     #main-nav-ul { flex-grow: 1000; width: 100%; }
     .soc-logo {
         display: inline;
         flex-shrink: 1000;
         min-width: 104px;
+        margin-right: 1em;
     }
 }
 
-@media only screen and (max-width: 826px) {
+@media only screen and (max-width: 755px) {
     #main-nav-ul { flex-grow: unset; }
     .soc-logo {
         flex-shrink: unset;
         display: block;
         min-width: 220px;
+        margin-right: unset;
     }
 }
 
 @media only screen and (max-width: 673px) {
     .dropdown-wrapper { display: block; }
+    .nav-container { padding-right: 0px; }
     #main-nav-ul { display: none; }
 }
