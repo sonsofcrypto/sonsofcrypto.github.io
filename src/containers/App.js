@@ -26,9 +26,9 @@ function App() {
         <ErrorBoundary>
             <NavBar/>
             <Hero/>
-            <CTASection/>
             <Overview/>
             <WalletSection/>
+            <CTASection/>
             <VideoSection/>
             <RoadmapSection/>
             {sections.map((section, i) => (

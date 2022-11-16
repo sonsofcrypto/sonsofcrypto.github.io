@@ -1,6 +1,6 @@
 .cta-section {
-    margin: 0 auto;
-    margin-top: 24px;
+    margin-top: 96px;
+    margin-bottom: 48px;
 }
 
 .cta-section-buttons {
@@ -23,6 +23,7 @@
 
 .cta-section-item-container {
     margin: 0.25em;
+    flex: 1;
 }
 
 .cta-section-item-container:hover {
@@ -52,9 +53,28 @@
 
 #cta-section-headline {
     display: block;
-    /*max-width: 50%;*/
+    font-size: 62px;
+    line-height: 86px;
+}
+
+#cta-section-nyknyc {
+    display: block;
+    font-family: "Bungee";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+    flex: 1;
 }
 
 @media only screen and (max-width: 900px) {
     .cta-section-buttons { flex-direction: column; }
+}
+
+@media only screen and (max-width: 1257px) {
+    #cta-section-nyknyc { font-size: 28px; line-height: 33px; }
+}
+
+@media only screen and (max-width: 1103px) {
+    #cta-section-nyknyc { display: none; }
 }

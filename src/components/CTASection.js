@@ -5,7 +5,7 @@ const CTASection = (props) => {
     const { progress } = props;
     return (
         <div className='section content-wrapper content-wrapper-padding cta-section'>
-            <h1 id="cta-section-headline">Not your keys, not your coins</h1>
+            {/*<h1 id="cta-section-headline">Not your keys not your coins</h1>*/}
             <div className="cta-section-buttons">
                 <a href="https://twitter.com/sonsofcryptolab" target="_blank">
                     <div className="cta-section-item-container">
@@ -31,6 +31,7 @@ const CTASection = (props) => {
                         </div>
                     </div>
                 </a>
+                <div id="cta-section-nyknyc">Not your keys, not your coins</div>
             </div>
         </div>
     )

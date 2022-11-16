@@ -16,6 +16,7 @@ const VideoSection = (props) => {
         <div className='video-section content-wrapper content-wrapper-padding section'>
             <div className='video-section-container'>
                 <iframe
+                    width="100%"
                     className='video-section-video'
                     src="https://www.youtube.com/embed/Nf2ZIOvvOyY"
                     title="web3 trenches diary #4 - Building web3 on mobile" frameBorder="0"
