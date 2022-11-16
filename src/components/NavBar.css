@@ -69,7 +69,7 @@ nav {
 }
 
 @media only screen and (max-width: 1147px) {
-    .nav-container ul li button { padding-left: 6px; }
+    .nav-container ul li button { padding-left: 12px; }
 }
 
 @media only screen and (max-width: 848px) {
