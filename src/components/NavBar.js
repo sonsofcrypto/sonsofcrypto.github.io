@@ -7,7 +7,7 @@ const NavBar = (props) => {
     const { progress } = props;
     const [showDropdown, setShowDropdown] = useState(false);
     const items = [
-        "Wallet", "Roadmap", "Mission & Tokenomics", "Whitepaper", "Social"
+        "Wallet", "Podcast", "Roadmap", "Mission & Tokenomics", "Whitepaper", "Social"
     ];
     function dropDownOnClick(idx) {
         setShowDropdown(false)
@@ -16,15 +16,17 @@ const NavBar = (props) => {
                 document.getElementById('wallet').scrollIntoView()
                 break
             case 1:
+                window.open('https://linktr.ee/web3trenchespodcast')
+            case 2:
                 document.getElementById('roadmap').scrollIntoView()
                 break
-            case 2:
+            case 3:
                 document.getElementById('mission').scrollIntoView()
                 break
-            case 3:
+            case 4:
                 window.open('https://sonsofcrypto.com/web3wallet_whitepaper.pdf')
                 break
-            case 4:
+            case 5:
                 window.open('https://linktr.ee/sonsofcrypto')
                 break
         }
