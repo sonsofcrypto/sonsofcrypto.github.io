@@ -7,6 +7,14 @@ const CTASection = (props) => {
         <div className='section content-wrapper content-wrapper-padding cta-section'>
             {/*<h1 id="cta-section-headline">Not your keys not your coins</h1>*/}
             <div className="cta-section-buttons">
+                <a href="https://apps.apple.com/us/app/web3wallet-by-sons-of-crypto-%CE%BE/id6464587288" target="_blank">
+                    <div className="cta-section-item-container">
+                        <div className="cta-section-item">
+                            <h3>Download</h3>
+                            <img className='cta-section-item-img' src='images/social/apple.svg'/>
+                        </div>
+                    </div>
+                </a>
                 <a href="https://twitter.com/sonsofcryptolab" target="_blank">
                     <div className="cta-section-item-container">
                         <div className="cta-section-item">
@@ -31,7 +39,7 @@ const CTASection = (props) => {
                         </div>
                     </div>
                 </a>
-                <div id="cta-section-nyknyc">Not your keys, not your coins</div>
+                {/*<div id="cta-section-nyknyc">Not your keys, not your coins</div>*/}
             </div>
         </div>
     )
