@@ -13,7 +13,7 @@ export const sections = [
         qoutesPalleteIds: [4, 5, 6, 7],
         body: `
             <p>Mission is to accelerate the development of web3 and to help ensure it is built without compromising on any of the crypto/cypherpunks core values and principles: Decentralization, censorship resistance, self-custody, and privacy. Web3 should not be built and funded by the same people who built the censorious, privacy-destroying web2. We’ll achieve this by building open source SDK for web3 Dapps, a state-of-the-art Web3wallet and finally, a suite of Dapps using our SDK.</p>
-            <p><a href="https://opensea.io/collection/web3wallet-nft" target="_blank">Web3wallet NFT</a> holders will benefit from wallet fee-free usage forever. As well as a potential airdrop of any future W3T governance tokens. W3T will also play an integral part of a yet-to-be-announced Defi product. Total supply 1 billion. There is nor shall there ever be any VC presale/sale at a discounted price. By frogs for frogs. (<a href="https://sonsofcrypto.com/web3wallet_whitepaper.pdf" target="_blank">More info in white paper</a>).</p>
+            <p><a href="https://blur.io/collection/web3wallet-nft" target="_blank">Web3wallet NFT</a> holders will benefit from wallet fee-free usage forever. As well as a potential airdrop of any future W3T governance tokens. W3T will also play an integral part of a yet-to-be-announced Defi product. Total supply 1 billion. There is nor shall there ever be any VC presale/sale at a discounted price. By frogs for frogs. (<a href="https://sonsofcrypto.com/web3wallet_whitepaper.pdf" target="_blank">More info in white paper</a>).</p>
         `
     },
     {

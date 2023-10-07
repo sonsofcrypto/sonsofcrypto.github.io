@@ -31,11 +31,11 @@ const CTASection = (props) => {
                         </div>
                     </div>
                 </a>
-                <a href="https://opensea.io/collection/web3wallet-nft" target="_blank">
+                <a href="https://blur.io/collection/web3wallet-nft" target="_blank">
                     <div className="cta-section-item-container">
                         <div className="cta-section-item">
                             <h3>Get NFT</h3>
-                            <img className='cta-section-item-img' src='images/social/opensea.svg'/>
+                            <img className='cta-section-item-img' src='images/social/blur.svg'/>
                         </div>
                     </div>
                 </a>
