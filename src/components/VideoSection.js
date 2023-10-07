@@ -18,7 +18,7 @@ const VideoSection = (props) => {
                 <iframe
                     width="100%"
                     className='video-section-video'
-                    src="https://www.youtube.com/embed/Nf2ZIOvvOyY"
+                    src="https://www.youtube.com/embed/uh6QnIONz1E?si=5S4tTvNDi4UvR_hx"
                     title="web3 trenches diary #4 - Building web3 on mobile" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
