@@ -36,13 +36,18 @@ const WalletSection = (props) => {
                 <p>Virtually all the wallet vendors connect to web3 via centralized <strike>web2</strike> providers. Web3Wallet is at the bleeding edge of what is technically possible in terms of connecting to crypto networks in a decentralised manner via <a href="https://ethereum.org/en/developers/docs/nodes-and-clients/#light-node" target="_blank">LES</a> & <a href="https://www.pokt.network/" target="_blank">Pocket Network</a>.</p>
                 <p>It is very hard, if not impossible, to use DeFi and web3 dapps on mobile, due to front ends not being responsive and mobile browsers not supporting wallet browser extensions. Web3 wallet aims to address the former by supporting native in-app smart contract interactions, and the latter by providing mobile extensions that inject web3 wallet providers into front ends and approves the signing of transactions via a mobile native browser extension. This would bring the user experience on par with desktop browsers and browser extension wallets.</p>
             </div>
-            <img className='wallet-section-meme'
-                 srcSet={
-                     'images/meme-large-pepe.png 1x, ' +
-                     'images/meme-large-pepe@2x.png 2x'
-                 }
-                 src={'images/meme-large-pepe.png'}
-            />
+            <div className='wallet-section-meme'>
+                <a id='wallet-section-appstore' href='https://apps.apple.com/us/app/web3wallet-by-sons-of-crypto-%CE%BE/id6464587288'>
+                    <img src='images/appstore.svg'/>
+                </a>
+                <img id='wallet-section-img-meme'
+                     srcSet={
+                         'images/meme-large-pepe.png 1x, ' +
+                         'images/meme-large-pepe@2x.png 2x'
+                     }
+                     src={'images/meme-large-pepe.png'}
+                />
+            </div>
         </div>
     )
 }

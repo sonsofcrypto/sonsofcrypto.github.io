@@ -47,15 +47,40 @@
     z-index: 5;
 }
 
+#wallet-section-appstore {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: 1em;
+    margin-top: -1em;
+    z-index: 1000;
+    display: block;
+}
+
+#wallet-section-appstore img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#wallet-section-img-meme {
+    max-width: 100%;
+    margin-top: -3%;
+}
+
+@media only screen and (max-width: 1233px) {
+    .wallet-section-meme {
+        max-width: 50%;
+        bottom: 7%;
+    }
+    #wallet-section-img-meme { margin-top: 5%; }
+}
+
 @media only screen and (max-width: 1150px) {
     .wallet-section .quotes h2 {
         font-size: 28px;
         line-height: 40px;
     }
 
-    .wallet-section .quotes {
-        top: 0;
-    }
+    .wallet-section .quotes { top: 0; }
 
     .wallet-section-img {
         max-width: 130%;
@@ -64,18 +89,8 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .wallet-section-meme {
-        right: -9%;
-        bottom: 9%;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    .wallet-section-meme {
-        max-width: 580px;
-        max-height: 580px;
-        bottom: 14%;
-    }
+    .wallet-section-meme { bottom: 15%; }
+    #wallet-section-img-meme { margin-top: 30%;}
 }
 
 @media only screen and (max-width: 900px) {
@@ -108,12 +123,30 @@
 
     .wallet-section-meme {
         position: relative;
-        display: block;
+        width: 100%;
+        max-width: 100%;
+        max-height: unset;
         margin: 0 auto;
-        left: 0; right: 0;
-        margin-top: 0vw;
-        margin-bottom: -15vw;
-        bottom: -3%;
+        right: 0;
+        margin-top: 2em;
+    }
+
+    #wallet-section-appstore {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #wallet-section-img-meme {
+        display: block;
+        max-width: 80%;
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        bottom: 0;
+        margin-top: 2em;
+        margin-bottom: -4em;
     }
 }
 
@@ -123,6 +156,7 @@
         max-width: 132%;
         top: 12.5%;
     }
+    #wallet-section-img-meme { max-width: 100%;}
 }
 
 @media only screen and (max-width: 450px) {
